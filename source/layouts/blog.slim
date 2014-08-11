@@ -20,26 +20,25 @@ html lang="ja"
     meta property="og:locale" content="ja_JP"
     meta property="fb:app_id" content=""
 
-    meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    meta name="viewport" content="width=device-width"
 
     == stylesheet_link_tag "style"
     == javascript_include_tag "all"
-    script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?xVSRN9-Pcws%3D" charset="utf-8"
 
     / == feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
 
   body
-    header
-      h1.logo
-        = image_tag "logo.png", :alt => "誠"
+    h1 ぶろぐてんぷれーと
 
-      nav
-        span.icon-nav
-        ul
-          li hoge
-          li fuga
-          li piyo
+    == yield
+    
+    /
+      aside
+        h2 Recent Articles
+        ol
+          - blog.articles[0...10].each do |article|
+            li
+              == link_to article.title, article
+              span == article.date.strftime('%b %e')
 
-    .main
-      = yield
-      = partial "layouts/footer"
+    == partial "layouts/footer"
