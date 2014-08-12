@@ -1,0 +1,112 @@
+@charset "utf-8"
+
+.index
+  .header
+    @include border-box
+    width: 100%
+    height: 100%
+    position: relative
+
+    .logo
+      width: 100px
+      height: 90px
+      position: absolute
+      top: -20px
+      left: 0
+      right: -5px
+      bottom: 0
+      margin: auto
+
+      img
+        width: 100px
+        height: 90px
+
+.container
+  .articles
+    margin-bottom: 150px
+
+    .article
+      margin-bottom: 100px
+      padding-top: 23px
+      position: relative
+     
+      .title
+        font-size: 20px
+        font-family: "A-OTF 見出ゴMB31 Pro", sans-serif
+        font-weight: bold
+        //font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif
+        margin-bottom: 40px
+
+      .date
+        font-size: 11px
+        letter-spacing: 0.1em
+        position: absolute
+        top: 0
+        left: 2px
+
+      .txt
+        font-size: 13px
+        line-height: 2
+        text-align: justify
+        margin: -13px 0
+
+  .pagenate
+    margin-bottom: 150px
+    position: relative
+
+    .page
+      font-size: 11px
+      text-align: center
+      letter-spacing: 0.2em
+     
+    .prev,
+    .next
+      font-size: 11px
+      text-align: center
+      line-height: 40px
+      position: absolute
+      top: -14px
+
+      a
+        width: 40px
+        height: 40px
+        display: block
+
+    .prev
+      left: -16px
+
+    .next
+      right: -16px
+
+
++mediaquery-sp
+  .index
+    .header
+      .logo
+        width: 68px
+        height: 60px
+        top: -10px
+        right: -3px
+
+        img
+          width: 68px
+          height: 60px
+
+  .container
+    .articles
+      margin-bottom: 100px
+
+      .article
+        margin-bottom: 75px
+
+        .date
+          font-size: 10px
+
+        .title
+          font-size: 18px
+
+        .txt
+          font-size: 12px
+
+    .pagenate
+      margin-bottom: 100px

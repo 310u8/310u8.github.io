@@ -20,7 +20,7 @@ html lang="ja"
     meta property="og:locale" content="ja_JP"
     meta property="fb:app_id" content=""
 
-    meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    meta name="viewport" content="width=device-width, user-scalable=no"
 
     == stylesheet_link_tag "style"
     == javascript_include_tag "all"
@@ -28,18 +28,10 @@ html lang="ja"
 
     / == feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
 
-  body
-    header
-      h1.logo
-        = image_tag "logo.png", :alt => "誠"
+  body class=[page_classes]
+    = partial "layouts/header"
 
-      nav
-        span.icon-nav
-        ul
-          li hoge
-          li fuga
-          li piyo
-
-    .main
+    .container
       = yield
-      = partial "layouts/footer"
+    
+    = partial "layouts/footer"

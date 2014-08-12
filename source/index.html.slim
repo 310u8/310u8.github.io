@@ -3,30 +3,26 @@ pageable: true
 per_page: 5
 ---
 
-#articles.articles
+.articles
   - page_articles.each_with_index do |article, i|
-    article
-      h2 = link_to article.title, article
-      time = article.date.strftime('%Y.%m.%d')
+    article.article
+      h2.title = link_to article.title, article
+      time.date = article.date.strftime('%Y.%m.%d')
       p.txt = strip_tags article.summary
 
 - if paginate
   .pagenate
     - if prev_page
       .prev
-        = link_to "<span class='icon-left'></span>", prev_page
-          
+        = link_to prev_page
+          span.icon-left
 
-    .pages
-      - pages = 1..num_pages
-      - pages.each do |num|
-        - if num == page_number
-          .page.current = num
-        - elsif num == 1
-          .page = link_to num, "/"
-        - else
-          .page = link_to num, "/page/#{num}"
+    .page    
+      = page_number
+      |  / 
+      = num_pages
 
     - if next_page
       .next
-        = link_to "<span class='icon-right'></span>", next_page
+        = link_to next_page
+          span.icon-right

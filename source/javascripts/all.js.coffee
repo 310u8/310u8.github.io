@@ -3,4 +3,4 @@
 
 $ ->
   console.log "hoge"
-  FLAutoKerning.process $("h2")
+  FLAutoKerning.process $(".title")
