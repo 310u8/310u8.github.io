@@ -2,27 +2,26 @@
 
 .blog
   .visual
-    +centering(800px)
+    text-align: center
     margin-bottom: 80px
 
     img
-      width: 800px
+      width: 100%
+      max-width: 800px
 
   .container
     .article
-      margin-top: 0px
-
       position: relative
-      margin-bottom: 150px
-      padding-top: 30px
+      margin-bottom: 150 - 6px
+      padding-top: 12 + 20px
 
       .title
         font-size: 22px
-        // font-family: "A-OTF 見出ゴMB31 Pro", sans-serif
-        // font-weight: bold
-        font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif
+        font-family: "A-OTF 見出ゴMB31 Pro", sans-serif
+        font-weight: bold
+        // font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif
         text-align: center
-        margin-bottom: 110px
+        margin-bottom: 100px
 
       .date
         font-size: 12px
@@ -43,3 +42,56 @@
         line-height: 2
         text-align: justify
         margin: -6px 0 40 - 6px
+
+    .share
+      text-align: center
+      margin-bottom: 150px
+      
+      .twitter,
+      .facebook,
+      .hatena
+        display: inline-block
+
+      .twitter
+        margin-right: 20px
+        position: relative
+        top: 1px
+
+      .facebook
+        margin-right: 20px
+
+      .hatena
+        position: relative
+        top: -5px
+
++mediaquery-sp
+  .blog
+    .visual
+      margin-bottom: 60px
+
+    .container
+      .article
+        margin-bottom: 100 - 6px
+        padding-top: 11 + 15px
+
+        .title
+          font-size: 18px
+          margin-bottom: 80px
+
+        .date
+          font-size: 11px
+
+        h3
+          margin: 60px 0 40px
+
+        p
+          margin-bottom: 40 - 6px
+
+      .share
+        margin-bottom: 100px
+
+        .twitter
+          top: 0
+
+        .hatena
+          top: -6px

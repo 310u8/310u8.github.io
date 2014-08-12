@@ -3,9 +3,9 @@ html lang="ja"
   head
     meta charset="utf-8"
     meta http-equiv="Content-Language" content="ja"
-    
+
     title
-      == current_article.title + ' - ' unless current_article.nil?
+      == current_article.title + ' | ' unless current_article.nil?
       | 誠
 
     meta name="keywords" content=""
@@ -33,5 +33,5 @@ html lang="ja"
 
     .container
       = yield
-    
+
     = partial "layouts/footer"
