@@ -104,3 +104,9 @@ configure :build do
 end
 
 set :slim, { :format => :html5 }
+
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+  config.cascade  = false
+  config.inline   = true
+end

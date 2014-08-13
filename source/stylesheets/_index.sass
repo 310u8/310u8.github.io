@@ -2,7 +2,7 @@
 
 .index
   .header
-    @include border-box
+    +border-box
     width: 100%
     height: 100%
     position: relative
@@ -17,9 +17,12 @@
       bottom: 0
       margin: auto
 
-      img
-        width: 100px
-        height: 90px
+      a
+        +hover
+
+        img
+          width: 100px
+          height: 90px
 
 .index,
 .page
@@ -38,6 +41,9 @@
           font-weight: bold
           //font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif
           margin-bottom: 40px
+
+          a
+            +hover
 
         .date
           font-size: 11px
@@ -70,6 +76,7 @@
         top: -14px
 
         a
+          +hover
           width: 40px
           height: 40px
           display: block

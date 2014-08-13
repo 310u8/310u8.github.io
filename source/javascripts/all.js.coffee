@@ -2,5 +2,5 @@
 #= require_tree .
 
 $ ->
-  console.log "hoge"
   FLAutoKerning.process $(".title")
+  console.log "きさま！見ているなッ！"

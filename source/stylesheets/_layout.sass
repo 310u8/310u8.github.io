@@ -20,6 +20,7 @@ a
 .header
   .nav
     .icon-nav
+      +hover
       font-size: 18px
       text-align: center
       line-height: 40px
@@ -37,20 +38,23 @@ a
 .page,
 .blog
   .header
-    @include container
+    +container
     height: 250px
     padding-top: 90px
 
     .logo
-      img
-        width: 56px
-        height: 50px
+      a
+        +hover
+
+        img
+          width: 56px
+          height: 50px
 
 .container
-  @include container
+  +container
 
 .footer
-  @include container
+  +container
   padding-bottom: 150px
   
   .copyright
