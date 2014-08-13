@@ -4,11 +4,14 @@ html,
 body
   height: 100%
 
-body
+body,
+code
   color: $black
   font-size: 13px
   font-family: "Helvetica Neue", Helvetica, "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif
-  background: $gray
+
+body
+  background: $light-gray
 
 a
   color: $black
@@ -25,6 +28,7 @@ a
       position: fixed
       top: 40 - 12px
       right: 40 - 12px
+      z-index: 2147483647
       cursor: pointer
 
     ul

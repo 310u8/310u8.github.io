@@ -33,7 +33,7 @@
         left: 0
 
       h3
-        font-size: 16px
+        font-size: 18px
         font-weight: bold
         margin: 80px 0 40px
 
@@ -43,6 +43,64 @@
         text-align: justify
         margin: -6px 0 40 - 6px
 
+      img
+        width: 100%
+        margin-bottom: 40px
+        padding: 6px 0
+        display: block
+
+      a
+        text-decoration: underline
+
+        &:hover
+          text-decoration: none
+
+      ul,
+      ol
+        margin-bottom: 40px
+
+        li
+          margin-bottom: 10px
+
+      ul
+        li
+          margin-left: -0.2em
+
+          &:before
+            content: "・"
+            margin-right: 0.2em
+
+      ol
+        li
+          list-style-type: decimal
+          margin-left: 1.5em
+      
+      blockquote
+        background: $gray
+        margin-bottom: 40px
+        padding: 40px
+
+        p
+          text-align: center
+          line-height: 1.75
+          margin-bottom: -5px
+
+      pre
+        background: $gray
+        margin-bottom: 40px
+        padding: 40px
+        overflow: scroll
+
+        code
+          line-height: 1.25
+
+      hr
+        margin: 0 0 40px
+        border: none
+
+      .twitter-tweet
+        margin-bottom: 40px !important
+      
     .share
       text-align: center
       margin-bottom: 150px
@@ -82,10 +140,31 @@
           font-size: 11px
 
         h3
-          margin: 60px 0 40px
+          margin: 60px 0 30px
 
         p
-          margin-bottom: 40 - 6px
+          margin-bottom: 30 - 6px
+
+        img
+          margin-bottom: 30px
+
+        ul,
+        ol
+          margin-bottom: 30px
+
+        blockquote
+          margin-bottom: 30px
+          padding: 20px
+
+        pre
+          margin-bottom: 30px
+          padding: 20px
+
+        hr
+          margin-bottom: 30px
+
+        .twitter-tweet
+          margin-bottom: 30px !important
 
       .share
         margin-bottom: 100px
