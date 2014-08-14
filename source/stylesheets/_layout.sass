@@ -18,22 +18,52 @@ a
   text-decoration: none
 
 .header
-  .nav
-    .icon-nav
-      +hover
-      font-size: 18px
-      text-align: center
-      line-height: 40px
-      width: 40px
-      height: 40px
-      position: fixed
-      top: 40 - 12px
-      right: 40 - 12px
-      z-index: 2147483647
-      cursor: pointer
+  position: relative
+  z-index: 0
 
-    ul
-      display: none
+.nav
+  position: fixed
+  top: 0
+  right: 0
+  z-index: 2147483647
+
+  .icon
+    +hover
+    font-size: 18px
+    text-align: center
+    line-height: 40px
+    width: 40px
+    height: 40px
+    position: absolute
+    top: 40 - 12px
+    right: 40 - 12px
+    z-index: 1
+    cursor: pointer
+
+  .list
+    +border-box
+    width: 100%
+    height: 100%
+    background: $light-gray-opacity
+    padding-top: 85px
+    position: absolute
+    top: 0
+    right: 0
+    z-index: 0
+    display: none
+
+    li
+      width: 100%
+      height: 50px
+      letter-spacing: 0.15em
+      text-align: right
+
+      a
+        +hover
+        line-height: 50px
+        height: 50px
+        padding-right: 40px
+        display: block
 
 .page,
 .blog
@@ -52,10 +82,14 @@ a
 
 .container
   +container
+  position: relative
+  z-index: 0
 
 .footer
   +container
   padding-bottom: 150px
+  position: relative
+  z-index: 0
   
   .copyright
     font-size: 9px
@@ -63,12 +97,21 @@ a
     letter-spacing: 0.1em
 
 +mediaquery-sp
-  .header
-    .nav
-      .icon-nav
-        font-size: 16px
-        top: 33 - 10px
-        right: 30 - 12px
+  .nav
+    z-index: 100
+
+    .icon
+      font-size: 16px
+      top: 33 - 10px
+      right: 30 - 12px
+
+    .list
+      padding-top: 80px
+
+      li
+        a
+          padding-right: 30px
+      
 
   .container
     padding: 0 30px
@@ -83,12 +126,13 @@ a
   .blog
     .header
       height: 90px
-      padding: 28px 30px 0
+      padding: 29px 30px 0
 
       .logo
-        img
-          width: 34px
-          height: 30px
+        a
+          img
+            width: 34px
+            height: 30px
 
     .container
       margin-top: 30px
