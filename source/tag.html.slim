@@ -1,0 +1,29 @@
+---
+pageable: true
+per_page: 5
+layout: layout
+---
+
+.articles
+  - page_articles.each_with_index do |article, i|
+    article.article
+      h2.title = link_to article.title, article
+      time.date = article.date.strftime('%Y.%m.%d')
+      p.txt = strip_tags article.summary
+
+- if paginate
+  .pagenate
+    - if prev_page
+      .prev
+        = link_to prev_page
+          span.icon-left
+
+    .page    
+      = page_number
+      |  / 
+      = num_pages
+
+    - if next_page
+      .next
+        = link_to next_page
+          span.icon-right

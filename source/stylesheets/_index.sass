@@ -8,9 +8,9 @@
 
 .index
   .header
-    +border-box
     width: 100%
     height: 100%
+    box-sizing: border-box
     position: relative
 
     .logo
@@ -27,10 +27,11 @@
         width: 100px
         height: 90px
         opacity: 0
-        animation: logo 2s $easeOutSine 1s forwards
+        animation: logo 2s $easeOutSine 0.5s forwards
 
 .index,
-.page
+.page,
+.blog_tags
   .container
     .articles
       margin-bottom: 150px
@@ -44,15 +45,18 @@
           font-size: 20px
           font-family: "A-OTF 見出ゴMB31 Pro", sans-serif
           font-weight: bold
+          text-align: left
           //font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif
           margin-bottom: 40px
 
           a
             +hover
+            text-decoration: none
 
         .date
           font-size: 11px
           letter-spacing: 0.1em
+          text-align: left
           position: absolute
           top: 0
           left: 2px

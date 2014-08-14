@@ -12,7 +12,7 @@ activate :blog do |blog|
   # Matcher for blog source files
   blog.sources = "{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
+  blog.layout = "layout"
   blog.summary_separator = /(READMORE)/
   blog.summary_length = 140
   # blog.year_link = "{year}.html"
@@ -21,7 +21,6 @@ activate :blog do |blog|
   # blog.default_extension = ".markdown"
 
   blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
 
   # Enable pagination
   blog.paginate = true

@@ -10,8 +10,6 @@ nav.nav
   span.icon.icon-nav
   ul.list
     li =link_to "all", "/"
-    li =link_to "web", "/"
-    li =link_to "design", "/"
-    li =link_to "music", "/"
-    li =link_to "etc", "/"
-    li =link_to "about", "/"
+    - blog.tags.each do |tag, articles|
+      li =link_to tag, tag_path(tag)
+    li =link_to "author", "/author/"

@@ -65,6 +65,13 @@ class Navigation
 $ ->
   console.log "きさま！見ているなッ！"
 
+  navigation = new Navigation $("body > .nav")
+
+  setTimeout =>
+    $(".share").css "display":"block"
+  ,1000
+
   FLAutoKerning.process $(".title")
 
-  navigation = new Navigation $("body > .nav")
+  $("pre, code").addClass "prettyprint"
+  prettyPrint()
