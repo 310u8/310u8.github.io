@@ -74,4 +74,3 @@ $ ->
   FLAutoKerning.process $(".title")
 
   $("pre, code").addClass "prettyprint"
-  prettyPrint()

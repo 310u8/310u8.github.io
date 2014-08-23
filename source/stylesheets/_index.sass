@@ -1,11 +1,5 @@
 @charset "utf-8"
 
-@keyframes logo
-  0%
-    opacity: 0
-  100%
-    opacity: 1
-
 .index
   .header
     width: 100%
@@ -26,8 +20,6 @@
       img
         width: 100px
         height: 90px
-        opacity: 0
-        animation: logo 2s $easeOutSine 0.5s forwards
 
 .index,
 .page,
@@ -109,6 +101,10 @@
         img
           width: 68px
           height: 60px
+
+  .index
+    .container
+      margin-top: 0
 
   .index,
   .page
