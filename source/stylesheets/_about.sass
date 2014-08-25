@@ -1,0 +1,62 @@
+@charset "utf-8"
+
+.about
+  .container
+    .title
+      font-size: 22px
+      font-family: "A-OTF 見出ゴMB31 Pro", sans-serif
+      // font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif
+      font-weight: bold
+      letter-spacing: 0.3em
+      text-align: center
+      margin-bottom: 50px
+
+    .social
+      font-size: 11px
+      letter-spacing: 0.1em
+      text-align: center
+      margin-bottom: 100px
+
+      li
+        margin-right: 25px
+        display: inline-block
+
+        a
+          +hover
+
+    .txt
+      font-size: 13px
+      line-height: 2
+      text-align: justify
+      margin: -8px 0 150 - 8px
+
+      a
+        text-decoration: underline
+        
+        &:hover
+          text-decoration: none
+
+
++mediaquery-sp
+  .about
+    .container
+      .title
+        font-size: 18px
+        margin-bottom: 80px
+
+      .social
+        margin: -46px 0 40px
+
+        li
+          width: 33%
+          margin-right: 0
+          display: inline-block
+
+          a
+            line-height: 50px
+            width: 100%
+            height: 50px
+            display: block
+
+      .txt
+        margin-bottom: 100 - 8px
