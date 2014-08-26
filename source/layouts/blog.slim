@@ -1,37 +1,10 @@
 doctype html
 html lang="ja"
   head
-    meta charset="utf-8"
-    meta http-equiv="Content-Language" content="ja"
-
-    title
-      == current_article.title + ' | ' unless current_article.nil?
-      | 誠
-
-    meta name="keywords" content=""
-    meta name="description" content=""
-
-    meta property="og:title" content=""
-    meta property="og:type" content="website"
-    meta property="og:url" content=""
-    meta property="og:description" content=""
-    meta property="og:site_name" content=""
-    meta property="og:image" content=""
-    meta property="og:locale" content="ja_JP"
-    meta property="fb:app_id" content=""
-
-    meta name="viewport" content="width=device-width, user-scalable=no"
-
-    == stylesheet_link_tag "style"
-    == javascript_include_tag "all"
-    script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?xVSRN9-Pcws%3D" charset="utf-8"
-    script type="text/javascript" src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js" charset="utf-8"
-
-
-    / == feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
+    = partial "layouts/_meta"
 
   body class=[page_classes]
-    = partial "layouts/header"
+    = partial "layouts/_header"
 
     - if current_article.data.visual
       figure.visual
@@ -62,4 +35,4 @@ html lang="ja"
           erb:
             <a href="http://b.hatena.ne.jp/entry/www.daisukenagai.com/blog/<%= current_article.slug %>" class="hatena-bookmark-button" data-hatena-bookmark-title="<%= current_article.title %>" data-hatena-bookmark-layout="simple" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
     
-    = partial "layouts/footer"
+    = partial "layouts/_footer"
