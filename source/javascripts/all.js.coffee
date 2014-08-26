@@ -71,6 +71,6 @@ $ ->
     $(".share").css "display":"block"
   ,1000
 
-  FLAutoKerning.process $(".title")
+  #FLAutoKerning.process $(".title")
 
   $("pre, code").addClass "prettyprint"

@@ -18,10 +18,11 @@
       .title
         font-size: 22px
         font-family: "A-OTF 見出ゴMB31 Pro", sans-serif
-        font-weight: bold
         // font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif
+        font-weight: bold
         text-align: center
-        margin-bottom: 100px
+        line-height: 1.5
+        margin: -6px 0 100 - 6px
 
       .date
         font-size: 12px
@@ -36,16 +37,19 @@
         font-size: 18px
         line-height: 1.5
         font-weight: bold
-        margin: 80 - 5px 0 50 - 5px
+        margin: 80 - 5px 0 40 - 5px
 
       p + h3
-        margin-top: 100 - 5 - 8px
+        margin-top: 80 - 5 - 8px
 
       p
         font-size: 13px
         line-height: 2
         text-align: justify
-        margin: -8px 0 50 - 8px
+        margin: -8px 0 40 - 8px
+
+      small
+        font-size: 11px
 
       img
         padding: 8px 0 10px
@@ -59,18 +63,22 @@
 
       ul,
       ol
-        margin-bottom: 50 - 2px
+        margin-bottom: 40 - 2px
 
         li
-          margin-bottom: 10px
+          line-height: 1.75
+          margin: -5px 0  20 - 5px
 
       ul
         li
-          margin-left: -0.2em
+          position: relative
+          padding-left: 1em
 
           &:before
             content: "・"
-            margin-right: 0.2em
+            position: absolute
+            top: 0
+            left: -0.2em
 
       ol
         li
@@ -79,8 +87,8 @@
       
       blockquote
         background: $gray
-        margin-bottom: 50px
-        padding: 50px
+        margin-bottom: 40px
+        padding: 40px
 
         p
           text-align: center
@@ -89,20 +97,20 @@
 
       pre
         background: $gray
-        margin-bottom: 50px
+        margin-bottom: 40px
         border: none
-        padding: 50 - 6px 50px
+        padding: 40 - 6px 40px
         overflow: scroll
 
         code
           line-height: 1.5
 
       hr
-        margin: 0 0 50px
+        margin: 0 0 40px
         border: none
 
       .twitter-tweet
-        margin-bottom: 55px !important
+        margin-bottom: 45px !important
       
     .share
       text-align: center
@@ -137,31 +145,41 @@
 
         .title
           font-size: 18px
-          margin-bottom: 80px
+          margin-bottom: 80 - 5px
 
         .date
           font-size: 11px
 
         h3
-          margin: 60 - 5px 0 40 - 5px
+          font-size: 16px
+          margin: 60 - 5px 0 30 - 5px
 
         p + h3
           margin-top: 60 - 5 - 8px
 
         p
-          margin-bottom: 40 - 8px
+          margin-bottom: 30 - 8px
 
         img
           width: 100%
 
+        ul,
+        ol
+          margin-bottom: 30 - 2px
+
         blockquote
+          margin-bottom: 30px
           padding: 20px
 
         pre
+          margin-bottom: 30px
           padding: 20px
 
         hr
-          margin-bottom: 20px
+          margin-bottom: 30px
+
+        .twitter-tweet
+          margin-bottom: 35px !important
 
       .share
         margin-bottom: 100px

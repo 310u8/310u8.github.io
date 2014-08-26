@@ -143,7 +143,6 @@ Fireworksのページ機能にはいくらか劣りますが、Photoshopにも�
 
 <a href="http://coliss.com/articles/software/photoshop-extension-linked-smart-objects.html">Win/これは便利！外部ファイルをリンクさせるPhotoshopのエクステンション -Links | コリス</a>
 
-
 -----
 
 というわけでいくつか機能を紹介しました。他にも「これはできないの？」とか「これもできるよ！」などなどありましたら、ぜひご連絡ください。
