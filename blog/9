@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta content="ja" http-equiv="Content-Language"><title>Photoshopで文字をよりシャープにクリアに見せるこつを検証してみた | 誠</title><meta content="" name="keywords"><meta content="" name="description"><meta content="" property="og:title"><meta content="website" property="og:type"><meta content="" property="og:url"><meta content="" property="og:description"><meta content="" property="og:site_name"><meta content="" property="og:image"><meta content="ja_JP" property="og:locale"><meta content="" property="fb:app_id"><meta content="width=device-width, user-scalable=no" name="viewport"><link href="/stylesheets/style.css" rel="stylesheet" type="text/css" /><script src="/javascripts/all.js" type="text/javascript"></script><script charset="utf-8" src="//typesquare.com/accessor/script/typesquare.js?xVSRN9-Pcws%3D" type="text/javascript"></script><script charset="utf-8" src="//google-code-prettify.googlecode.com/svn/loader/run_prettify.js" type="text/javascript"></script></head><body class="blog blog_9"><header class="header"><h1 class="logo"><a href="/"><img alt="誠" src="/images/logo.png" /></a></h1></header><nav class="nav"><span class="icon icon-nav"></span><ul class="list"><li><a href="/">all</a></li><li><a href="/blog/tags/etc.html">etc</a></li><li><a href="/blog/tags/design.html">design</a></li><li><a href="/blog/tags/web.html">web</a></li><li><a href="/about.html">about</a></li></ul></nav><div class="container"><div class="article"><h2 class="title">Photoshopで文字をよりシャープにクリアに見せるこつを検証してみた</h2><time class="date">2013.07.30</time><p>コリスさんに<a href="http://coliss.com/articles/build-websites/operation/design/photoshop-tips-for-crisp-texts-by-jonathan-olsen.html">Photoshopで文字をよりシャープにクリアに見せるこつ -1px未満のこだわり</a>という興味深い記事が上がっていたので、早速検証してみました。<br />
+記事の中では、「アンチエイリアスを鮮明に」「位置の小数点以下を削除」というポイントが紹介されていたのですが、結論からいうと「アンチエイリアスは滑らかに」「位置は小数点単位で調整」の方がきれいでした。</p>
+
+<hr />
+
+<p><img alt="" src="/images/blog/20130730_1.jpg" /></p>
+
+<p>上から、「位置の小数点以下なし」「アンチエイリアス：鮮明」、「位置の小数点以下あり」「アンチエイリアス：鮮明」、「位置の小数点以下あり」「アンチエイリアス：滑らかに」となっています。<br />
+位置に関しては、小数点含めて一番きれいに見えるように調整するのがベストです。また、アンチエイリアスが「鮮明・シャープ」だと垂直位置の移動が1px単位でしかできないので、こだわるのであれば「滑らかに・強く」の方が調整しやすいです。</p>
+
+<hr />
+
+<p><img alt="" src="/images/blog/20130730_2.jpg" /></p>
+
+<p>ちなみに原寸大はこちら。よーーーく見ないとわかりませんが、確かにクオリティは上がっているのではないでしょうか。</p>
+
+<hr />
+
+<p>これは個人的な見解ですが、文字のアンチエイリアスに関しては万能な設定は存在しないと考えます。フォントはもちろん、大きさや太さ、文字色や背景色などに合わせて、つど最適な設定をしていくしかありません。<br />
+ただ、コリスさんがこの記事で伝えたかったのは「細部にもこだわりを持つ」ということだと思うので、その点はぜひ意識していきたいですね！横槍を入れてしまい、大変失礼いたしました。</p>
+</div><div class="share"><div class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-via="310u8" data-lang="ja" data-count="none">ツイート</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div><div class="facebook"><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=348456995219440&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://www.daisukenagai.com/blog/9" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></div><div class="hatena"><a href="http://b.hatena.ne.jp/entry/www.daisukenagai.com/blog/9" class="hatena-bookmark-button" data-hatena-bookmark-title="Photoshopで文字をよりシャープにクリアに見せるこつを検証してみた" data-hatena-bookmark-layout="simple" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></div></div></div><div class="footer"><p class="copyright">Copyright &copy; Daisuke Nagai All Rights Reserved.</p></div></body></html>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2014-08-11T00:00:00+09:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>吾輩は猫である</title>
+    <link rel="alternate" href="http://blog.url.com/blog/0"/>
+    <id>http://blog.url.com/blog/0</id>
+    <published>2014-08-11T00:00:00+09:00</published>
+    <updated>2014-08-26T15:23:12+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。その後猫にもだいぶ逢ったがこんな片輪には一度も出会わした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと煙を吹く。どうも咽せぽくて実に弱った。これが人間の飲む煙草というものである事はようやくこの頃知った。&lt;/p&gt;
+
+&lt;p&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。その後猫にもだいぶ逢ったがこんな片輪には一度も出会わした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと煙を吹く。どうも咽せぽくて実に弱った。これが人間の飲む煙草というものである事はようやくこの頃知った。&lt;/p&gt;
+
+&lt;h3 id="section"&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。&lt;/h3&gt;
+&lt;p&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。その後猫にもだいぶ逢ったがこんな片輪には一度も出会わした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと煙を吹く。どうも咽せぽくて実に弱った。これが人間の飲む煙草というものである事はようやくこの頃知った。&lt;/p&gt;
+
+&lt;h3 id="section-1"&gt;名前はまだ無い&lt;/h3&gt;
+&lt;p&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。その後猫にもだいぶ逢ったがこんな片輪には一度も出会わした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと煙を吹く。どうも咽せぽくて実に弱った。これが人間の飲む煙草というものである事はようやくこの頃知った。&lt;/p&gt;
+
+&lt;h3 id="section-2"&gt;どこで生れたかとんと見当がつかぬ&lt;/h3&gt;
+&lt;p&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。その後猫にもだいぶ逢ったがこんな片輪には一度も出会わした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと煙を吹く。どうも咽せぽくて実に弱った。これが人間の飲む煙草というものである事はようやくこの頃知った。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="http://www.ngi-d.net/wp-content/uploads/130610_2.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。その後猫にもだいぶ逢ったがこんな片輪には一度も出会わした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと煙を吹く。どうも咽せぽくて実に弱った。これが人間の飲む煙草というものである事はようやくこの頃知った。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;吾輩は猫である。&lt;/strong&gt; &lt;a href="/"&gt;名前はまだ無い&lt;/a&gt;。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。その後猫にもだいぶ逢ったがこんな片輪には一度も出会わした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと煙を吹く。どうも咽せぽくて実に弱った。これが人間の飲む煙草というものである事はようやくこの頃知った。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ほげ&lt;/li&gt;
+  &lt;li&gt;ふが&lt;/li&gt;
+  &lt;li&gt;ぴよ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ほげ&lt;/li&gt;
+  &lt;li&gt;ふが&lt;/li&gt;
+  &lt;li&gt;ぴよ&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;けっきょく ぼくが いちばん つよくて すごいんだよね&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+  &amp;lt;li&amp;gt;ほげ&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;ふが&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;ぴよ&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote class="twitter-tweet" lang="ja"&gt;&lt;p&gt;Emmet落ちすぎ問題&lt;/p&gt;&amp;mdash; Daisuke Nagai (@310u8) &lt;a href="https://twitter.com/310u8/statuses/499029241434890240"&gt;2014, 8月 12&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;けっきょく ぼくが いちばん つよくて すごいんだよね&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id="section-3"&gt;薄暗いじめじめした所でニャーニャー泣いていた&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="" src="http://www.ngi-d.net/wp-content/uploads/130610_2.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕えて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。その後猫にもだいぶ逢ったがこんな片輪には一度も出会わした事がない。のみならず顔の真中があまりに突起している。そうしてその穴の中から時々ぷうぷうと煙を吹く。どうも咽せぽくて実に弱った。これが人間の飲む煙草というものである事はようやくこの頃知った。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;吾輩は猫である。名前はまだ無い。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Photoshopで文字をよりシャープにクリアに見せるこつを検証してみた</title>
+    <link rel="alternate" href="http://blog.url.com/blog/9"/>
+    <id>http://blog.url.com/blog/9</id>
+    <published>2013-07-30T00:00:00+09:00</published>
+    <updated>2014-08-26T15:10:57+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;コリスさんに&lt;a href="http://coliss.com/articles/build-websites/operation/design/photoshop-tips-for-crisp-texts-by-jonathan-olsen.html"&gt;Photoshopで文字をよりシャープにクリアに見せるこつ -1px未満のこだわり&lt;/a&gt;という興味深い記事が上がっていたので、早速検証してみました。&lt;br /&gt;
+記事の中では、「アンチエイリアスを鮮明に」「位置の小数点以下を削除」というポイントが紹介されていたのですが、結論からいうと「アンチエイリアスは滑らかに」「位置は小数点単位で調整」の方がきれいでした。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130730_1.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;上から、「位置の小数点以下なし」「アンチエイリアス：鮮明」、「位置の小数点以下あり」「アンチエイリアス：鮮明」、「位置の小数点以下あり」「アンチエイリアス：滑らかに」となっています。&lt;br /&gt;
+位置に関しては、小数点含めて一番きれいに見えるように調整するのがベストです。また、アンチエイリアスが「鮮明・シャープ」だと垂直位置の移動が1px単位でしかできないので、こだわるのであれば「滑らかに・強く」の方が調整しやすいです。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130730_2.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみに原寸大はこちら。よーーーく見ないとわかりませんが、確かにクオリティは上がっているのではないでしょうか。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;これは個人的な見解ですが、文字のアンチエイリアスに関しては万能な設定は存在しないと考えます。フォントはもちろん、大きさや太さ、文字色や背景色などに合わせて、つど最適な設定をしていくしかありません。&lt;br /&gt;
+ただ、コリスさんがこの記事で伝えたかったのは「細部にもこだわりを持つ」ということだと思うので、その点はぜひ意識していきたいですね！横槍を入れてしまい、大変失礼いたしました。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>SONY α NEX-5R</title>
+    <link rel="alternate" href="http://blog.url.com/blog/8"/>
+    <id>http://blog.url.com/blog/8</id>
+    <published>2013-06-10T00:00:00+09:00</published>
+    <updated>2014-08-26T13:04:58+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;SONY α NEX-5Rを買いました。パワーズームレンズキットを5万円ちょっとで。3回払いです！
+しばらくはキットレンズで頑張ろうと思っていたのですが、NEX-5Rユーザーの作例を見ていたら我慢できなくなってしまい単焦点レンズも購入……。こちらもSONYのE35mm F1.8 OSSです。&lt;br /&gt;
+そのまま近くのスタバに入って、早速撮影。とろけるようなボケ具合を見て、いい買い物をしたと心底思いました（笑）。
+その後、地元の海に行って色々と撮ってきたので、作例をいくつか掲載してみます。初めてLightroomでRAWから現像してみたのですが、なかなかどうして難しいですね……。撮って出しの写真は&lt;a href="https://www.flickr.com/photos/310u8/"&gt;Flickr&lt;/a&gt;にアップしているので、よければこちらもご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130610_1.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20130610_2.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20130610_3.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20130610_4.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20130610_5.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20130610_6.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20130610_7.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20130610_8.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20130610_9.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20130610_10.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Camera / SONY α NEX-5R&lt;br /&gt;
+Lens / SONY E35mm F1.8 OSS SEL35F18&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>FireworksユーザーがPhotoshopではできないと思っている12の機能</title>
+    <link rel="alternate" href="http://blog.url.com/blog/7"/>
+    <id>http://blog.url.com/blog/7</id>
+    <published>2013-06-02T00:00:00+09:00</published>
+    <updated>2014-08-26T15:14:05+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;ご存知だとは思いますが、先日Fireworksのメジャーアップデートが終了するという発表がありました。
+&lt;a href="http://www.itmedia.co.jp/news/articles/1305/07/news030.html"&gt;Adobe、Web画像ツール「Fireworks」終了へ – ITmedia ニュース&lt;/a&gt;
+熱心なFireworksユーザーが多い弊社でも、社内のあちこちから悲鳴が……。&lt;br /&gt;
+Fireworksを使い続ける人もいれば、Sketchを試してみる人もいたりなど、その後の対応は様々でしたが、やはり候補に上がってくるのはPhotoshopへの乗り換え。そこで、社内のFireworksユーザーにPhotoshopの不満な点をヒアリングして、その解決策をまとめてみることにしました。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href="#p1"&gt;ピクセルに最適化されていない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p2"&gt;シンボルがない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p3"&gt;オブジェクトを直接選択できない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p4"&gt;シェイプの大きさや位置を数値で指定できない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p5"&gt;角丸の大きさを後から変更できない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p6"&gt;「線」が使えない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p7"&gt;色やフォントの検索・置換ができない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p8"&gt;複雑なパスの操作ができない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p9"&gt;カスタムアンチエイリアスがない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p10"&gt;レイヤースタイルのコピーができない&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p11"&gt;スライスがめんどくさい&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#p12"&gt;ページ機能やステート機能がない&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div id="p1"&gt;&lt;/div&gt;
+
+&lt;h3 id="section"&gt;1. ピクセルに最適化されていない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_1.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;CS6から「ベクトルツールと変更をピクセルグリッドにスナップ」という機能が追加され、シェイプだろうがスマートオブジェクトだろうが何だろうが、どんなものもピクセルに吸着できるようになりました。&lt;br /&gt;
+「環境設定」＞「一般」から設定することができます。&lt;/p&gt;
+
+&lt;div id="p2"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-1"&gt;2. シンボルがない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_2.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;「スマートオブジェクト」機能を使えば、Fireworksのシンボルと同じように、1つのオブジェクトを修正するだけで他のオブジェクトにも変更を適用することができます。
+スマートオブジェクト化したいレイヤーを選択して右クリック＞「スマートオブジェクトに変換」で変換が、スマートオブジェクト化したレイヤーをダブルクリックするか、右クリック＞「コンテンツを編集」で編集が可能です。&lt;/p&gt;
+
+&lt;div id="p3"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-2"&gt;3. オブジェクトを直接選択できない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_3.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;移動ツールを選択して、左上のメニューバーに表示される「自動選択」にチェックを入れましょう。レイヤーだけを選択したい場合は、「グループ」となっているプルダウンを「レイヤー」に変更すれば可能です。&lt;/p&gt;
+
+&lt;div id="p4"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-3"&gt;4. シェイプの大きさや位置を数値で指定できない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_4.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;シェイプツールを選択してキャンバス上でダブルクリックすると、数値を指定したシェイプを作成することができます。&lt;br /&gt;
+後から変更した場合は、変形時にメニューバーに表示されるXとY（位置）、WとH（大きさ）にpxの単位をつけて数値を入力することで変更が可能です。&lt;/p&gt;
+
+&lt;div id="p5"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-4"&gt;5. 角丸の大きさを後から変更できない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_5.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photoshop CCの新機能として、ついに角丸の編集が搭載されました！買いましょう（ステマ）
+現状では、Corner EditorというJSXの拡張スクリプトを入れることで実現可能です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://coliss.com/articles/build-websites/operation/design/photoshop-jsx-corner-editor.html"&gt;Win/Mac対応、Photoshopで角丸の作成・修正の強力な武器になる機能拡張 -Corner Editor | コリス&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id="p6"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-5"&gt;6. 「線」が使えない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_6.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;FireworksやIllustratorの「線」という概念ですが、Photoshopでは「ストローク」という名称でCS6から搭載されています。&lt;br /&gt;
+シェイプツールを選択すると、メニューバーに「ストローク」という項目がありますので、そこから色や太さなどを設定することができます。もちろん破線なんかもできます。&lt;/p&gt;
+
+&lt;div id="p7"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-6"&gt;7. 色やフォントの検索・置換ができない&lt;/h3&gt;
+&lt;p&gt;Photoshopでは&lt;strong&gt;できません&lt;/strong&gt;。諦めましょう……。&lt;/p&gt;
+
+&lt;div id="p8"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-7"&gt;8. レイヤースタイルのコピーができない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_12.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;レイヤースタイルが適用されているレイヤーを右クリック＞「レイヤースタイルのコピー」を選択すればできます。デフォルトではショートカットに割り当てられていないので、「編集」＞「キーボードショートカットとメニュー」＞「エリア：アプリケーションメニュー」＞「レイヤー」からショートカットを設定しましょう。ちなみに、シェイプでも同じことができますが、テキストのプロパティはコピーができませんので悪しからず……。&lt;/p&gt;
+
+&lt;div id="p9"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-8"&gt;9. カスタムアンチエイリアスがない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_8.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;これもPhotoshopではできません……。が、ちょっとめんどくさくてもよければ再現することは可能です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_8_2.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;まず、文字の「強さ」を変えたい場合。レイヤー効果から「ドロップシャドウ」を選択し、「描画モード」を「通常」、「距離」を「0px」、「サイズ」を「0px」と設定します。あとは文字と同じ色を選択すれば、「不透明度」の値で強さの微調整が可能です。難点としては色を変更したいときに二度手間になってしまうこと。めんどくさい人は、テキストをグループ化して、グループにカラーオーバーレイをかけましょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_8_3.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;次に、文字の「シャープ」を変えたい場合。これは、テキストレイヤーをスマートオブジェクト化して、「フィルター」＞「シャープ」＞「スマートシャープ」で調整が可能です。テキストを打ち直したい場合は、スマートオブジェクトを開いて編集しましょう。&lt;/p&gt;
+
+&lt;div id="p10"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-9"&gt;10. 複雑なパスの操作ができない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_11.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;確かCS6からだったと思うのですが、Photoshopにもパスファインダが搭載されています。複数のシェイプを選択して、「レイヤー」＞「シェイプを結合」からシェイプの結合や重なりの削除などを実行することができます。&lt;br /&gt;
+より複雑なパスを扱いたい場合は、Illustratorで作成してからPhotoshopにペーストする際に「スマートオブジェクト」を選択することで、Illustratorでの変更がPhotoshopでも反映されるようになるので、こちらがおすすめかもしれません。&lt;/p&gt;
+
+&lt;div id="p11"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-10"&gt;11. スライスがめんどくさい&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_9.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;PhotoshopとFireworksではスライスの勝手が違うので、ここではいくつかヒントをご紹介。&lt;/p&gt;
+
+&lt;p&gt;まず1つ、スライスしたいオブジェクトを選択して、「レイヤー」＞「レイヤーに基づく新規スライス」とすれば、オブジェクトに沿って自動的にスライスしてくれます。レイヤーを移動してもスライスが追従してくれるのでとても便利なんですが、逆に手動で変更することができないため、範囲を調整したいときは、スライス選択ツールを選んで、右クリック＞「ユーザー定義スライスに変更」としましょう。この機能をショートカットに登録しておけば、さらに盤石！&lt;/p&gt;
+
+&lt;p&gt;また、Fireworksではスライスごとに書き出しの設定ができますが、Photoshopでも「Web用に保存する」で設定が可能です。「Web用に保存する」の画面を開き、左上にあるスライス選択ツールを選ぶことで、それぞれのスライスごとに書き出しの設定ができます。&lt;/p&gt;
+
+&lt;p&gt;他にも、最近ではSlicyという便利なアプリが登場したので、これを活用するのもいいですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://blog.asial.co.jp/1118"&gt;Slicyで面倒なPSDのスライス作業を効率化 !：アシアルブログ&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id="p12"&gt;&lt;/div&gt;
+
+&lt;h3 id="section-11"&gt;12. ページ機能やステート機能がない&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_10.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fireworksのページ機能にはいくらか劣りますが、Photoshopにも「レイヤーカンプ」という機能があり、これでレイヤーの表示・非表示や位置などを記録することができます。マスターや共有レイヤーについては、スマートオブジェクトを使えば似たようなことができるかも？&lt;/p&gt;
+
+&lt;p&gt;また、複数ファイル間でスマートオブジェクトを共有したい場合は、Linksというエクステンションをインストールすることで可能になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://coliss.com/articles/software/photoshop-extension-linked-smart-objects.html"&gt;Win/これは便利！外部ファイルをリンクさせるPhotoshopのエクステンション -Links | コリス&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;というわけでいくつか機能を紹介しました。他にも「これはできないの？」とか「これもできるよ！」などなどありましたら、ぜひご連絡ください。&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>コーディング時にデザインのズレを確認できるブックマークレット</title>
+    <link rel="alternate" href="http://blog.url.com/blog/6"/>
+    <id>http://blog.url.com/blog/6</id>
+    <published>2012-06-01T00:00:00+09:00</published>
+    <updated>2014-08-26T13:40:01+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;コーディングをしているときにデザインデータとズレがないか確認するため、PhotoshopやFireworksにキャプチャした画像を貼って、直して、また貼って……みたいなことをよくすると思います。もっとスマートにできたらと思い、ブラウザ上で可能にするブックマークレットを作りました。 &lt;/p&gt;
+
+&lt;h3 id="section"&gt;使い方&lt;/h3&gt;
+&lt;p&gt;&lt;a href="javascript:%20(function(){var%20d%20=%20document;var%20s%20=%20d.createElement('script');s.src%20=%20'http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js';d.body.appendChild(s);setTimeout(function(){$(function(){var%20path%20=%20prompt('%E7%94%BB%E5%83%8F%E3%81%AE%E3%83%91%E3%82%B9%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84',%20'.png');$.ajax({type:'GET',url:path,success:function(){$('html').prepend('&amp;lt;img%20src=\''%20+%20path%20+%20'\'%20id=\'overlayDesignImg\'&amp;gt;');$('img#overlayDesignImg').css({'position':'absolute','top':0,'left':0,'z-index':2147483646,'opacity':0.5});$('img#overlayDesignImg').mousedown(function(e){var%20top%20=%20parseInt($('img#overlayDesignImg').css('top'));var%20left%20=%20parseInt($('img#overlayDesignImg').css('left'));var%20x%20=%20e.pageX;var%20y%20=%20e.pageY;$(document).bind('mousemove',%20function(e){$('img#overlayDesignImg').css({'top':top%20+%20e.pageY%20-%20y,'left':left%20+%20e.pageX%20-%20x,});return%20false;}).one('mouseup',%20function(e){$(document).unbind('mousemove');});return%20false;});$(document).keydown(function(e){var%20top%20=%20parseInt($('img#overlayDesignImg').css('top'));var%20left%20=%20parseInt($('img#overlayDesignImg').css('left'));var%20shift%20=%200;if(e.shiftKey){shift%20=%2010;}switch(e.which){case%2037:$('img#overlayDesignImg').css({'left':left%20-%201%20-%20shift});break;case%2038:$('img#overlayDesignImg').css({'top':top%20-%201%20-%20shift});break;case%2039:$('img#overlayDesignImg').css({'left':left%20+%201%20+%20shift});break;case%2040:$('img#overlayDesignImg').css({'top':top%20+%201%20+%20shift});break;}return%20false;});var%20overlayDesignFlg%20=%20true;$('html').prepend('&amp;lt;div%20id=\'overlayDesignBtn\'&amp;gt;%C3%97&amp;lt;/div&amp;gt;');$('div#overlayDesignBtn').css({'position':'fixed','top':'25px','right':'25px','z-index':2147483647,'width':'25px','height':'25px','border':'2px%20solid%20#000','background':'#fff','cursor':'pointer','font-size':'12px','font-weight':'bold','text-align':'center','line-height':'25px','vertical-align':'middle'}).click(function(){if(overlayDesignFlg){$('img#overlayDesignImg').css({'display':'none'});$(this).html('%E2%97%8F');overlayDesignFlg%20=%20false;}else{$('img#overlayDesignImg').css({'display':'block'});$(this).html('%C3%97');overlayDesignFlg%20=%20true;}});},error:function(){alert('%E7%94%BB%E5%83%8F%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93');}});});},%201000);})();"&gt;overlay design&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;上記のリンクをブックマークバーに追加して、使用したいページにて実行してください。&lt;/p&gt;
+
+&lt;h3 id="section-1"&gt;機能&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;絶対パス・相対パス・ルート相対パスによるファイルの指定（使用するページから見て）&lt;br /&gt;
+（http://www.example.com/img.png, ../img.png, /img.png)&lt;/li&gt;
+  &lt;li&gt;右上のボタンで表示・非表示の切り替え&lt;/li&gt;
+  &lt;li&gt;ドラッグ&amp;amp;ドロップで画像を移動&lt;/li&gt;
+  &lt;li&gt;矢印キーで画像を1px移動&lt;/li&gt;
+  &lt;li&gt;SHIFT+矢印キーで画像を10px移動&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-2"&gt;追記&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="http://makiapp.com/"&gt;maki : a free web design mock-up tool for pixel perfect layouts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;同じような機能でさらに高機能なブックマークレットを見つけてしまいました…！こちらはファイルの選択や、透明度の変更なども可能になっています。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>はじめてのSlim</title>
+    <link rel="alternate" href="http://blog.url.com/blog/5"/>
+    <id>http://blog.url.com/blog/5</id>
+    <published>2012-03-13T00:00:00+09:00</published>
+    <updated>2014-08-26T15:20:14+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;業務でSlimを使うことになったため、備忘録を残します。&lt;br /&gt;
+僕も全然わかっていないので、参考程度にしていただければ幸いです……。&lt;/p&gt;
+
+&lt;h3 id="slim"&gt;Slimってなに&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="http://slim-lang.com/docs.html"&gt;http://slim-lang.com/docs.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ruby on Railsのテンプレートエンジン  &lt;/p&gt;
+
+&lt;h3 id="section"&gt;テンプレートエンジンってなに&lt;/h3&gt;
+&lt;p&gt;HTMLと他の言語をごっちゃに書ける便利なもの&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;以下、SlimでのHTMLの記述方法です。&lt;/p&gt;
+
+&lt;h3 id="section-1"&gt;基本&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;タグ名␣内容&lt;/li&gt;
+  &lt;li&gt;ヤマカッコと閉じタグは省略する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;h1 ほげ
+ 
+　↓
+ 
+&amp;lt;h1&amp;gt;ほげ&amp;lt;/h1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="section-2"&gt;属性&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;タグ名␣属性名=”値”␣内容&lt;/li&gt;
+  &lt;li&gt;カクカッコ[]、ナミカッコ{}、マルカッコ()を使用することもできる&lt;/li&gt;
+  &lt;li&gt;id名・class名は属性名を省略できる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;a href="hoge" ほげ
+a[href="hoge"] ほげ
+p#hoge.fuga ほげ
+ 
+　↓
+ 
+&amp;lt;a href="hoge"&amp;gt;ほげ&amp;lt;/a&amp;gt;
+&amp;lt;a href="hoge"&amp;gt;ほげ&amp;lt;/a&amp;gt;
+&amp;lt;p id="hoge" class="fuga"&amp;gt;ほげ&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="section-3"&gt;入れ子&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;インデントで階層を表現する&lt;/li&gt;
+  &lt;li&gt;divはタグ名を省略できる（id名・class名のみで書ける）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;#hoge
+    ul
+        li ほげ
+        li ふが
+ 
+　↓
+ 
+&amp;lt;div id="hoge"&amp;gt;
+    &amp;lt;ul&amp;gt;
+        &amp;lt;li&amp;gt;ほげ&amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;ふが&amp;lt;/li&amp;gt;
+    &amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="section-4"&gt;複数行&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;内容が複数行になる場合は先頭にパイプ|をつける&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;p
+    | ほげ
+    br
+    | ふが
+    br
+    | ぴよ
+ 
+　↓
+ 
+&amp;lt;p&amp;gt;ほげ&amp;lt;br /&amp;gt;ふが&amp;lt;br /&amp;gt;ぴよ&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="section-5"&gt;コメント&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rubyのコメントを使用できる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;/ ほげ
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;とりあえずこれくらい書ければあんまり困らないはず……！&lt;br /&gt;
+新しいことを覚えたら随時更新していきたいと思いま&lt;/p&gt;
+</content>
+  </entry>
+</feed>
