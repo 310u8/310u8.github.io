@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 
 gem "middleman", "~> 3.3.4"
 gem "middleman-blog", "~> 3.5.3"
+gem "middleman-deploy", "~> 0.0.11"
 gem "builder", "~> 3.0"
 gem "slim", "~> 2.0.3"
 gem "nokogiri", "~> 1.6.3.1"

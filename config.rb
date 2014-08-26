@@ -8,7 +8,7 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
 
-  blog.permalink = "{title}"
+  blog.permalink = "{title}.html"
   # Matcher for blog source files
   blog.sources = "{title}.html"
   # blog.taglink = "tags/{tag}.html"
@@ -108,4 +108,9 @@ activate :autoprefixer do |config|
   config.browsers = ['last 2 versions', 'Explorer >= 9']
   config.cascade  = false
   config.inline   = true
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
 end
