@@ -779,23 +779,23 @@ a {
 /* line 5, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
 .about .container .title {
   font-size: 22px;
-  font-family: "A-OTF 見出ゴMB31 Pro", sans-serif;
+  font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif;
   font-weight: bold;
   letter-spacing: 0.3em;
   text-align: center;
   margin-bottom: 50px; }
-/* line 14, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+/* line 13, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
 .about .container .social {
   font-size: 11px;
   letter-spacing: 0.1em;
   text-align: center;
   margin-bottom: 100px; }
-  /* line 20, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+  /* line 19, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
   .about .container .social li {
     margin-right: 25px;
     display: inline-block; }
     @media only screen and (min-width: 481px) {
-      /* line 24, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+      /* line 23, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
       .about .container .social li a {
         -webkit-transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
         transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -805,38 +805,38 @@ a {
           -webkit-transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
           transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
           opacity: 0.25; } }
-/* line 27, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+/* line 26, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
 .about .container .txt {
   font-size: 13px;
   line-height: 2;
   text-align: justify;
   margin: -8px 0 142px; }
-  /* line 33, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+  /* line 32, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
   .about .container .txt a {
     text-decoration: underline; }
-    /* line 36, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+    /* line 35, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
     .about .container .txt a:hover {
       text-decoration: none; }
 
 @media only screen and (max-width: 480px) {
-  /* line 43, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+  /* line 42, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
   .about .container .title {
     font-size: 18px;
     margin-bottom: 80px; }
-  /* line 47, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+  /* line 46, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
   .about .container .social {
     margin: -46px 0 40px; }
-    /* line 50, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+    /* line 49, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
     .about .container .social li {
       width: 33%;
       margin-right: 0;
       display: inline-block; }
-      /* line 55, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+      /* line 54, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
       .about .container .social li a {
         line-height: 50px;
         width: 100%;
         height: 50px;
         display: block; }
-  /* line 61, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
+  /* line 60, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
   .about .container .txt {
     margin-bottom: 92px; } }
