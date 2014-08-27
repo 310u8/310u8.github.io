@@ -1,12 +1,12 @@
 doctype html
 html
   head
-    = partial "layouts/_meta"
+    = partial "meta"
 
   body class=[page_classes]
-    = partial "layouts/_header"
+    = partial "header"
 
     .container
       = yield
 
-    = partial "layouts/_footer"
+    = partial "footer"

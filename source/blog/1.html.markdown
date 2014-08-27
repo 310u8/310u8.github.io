@@ -4,7 +4,7 @@ date: 2011-03-23
 tags: design
 ---
 
-![](/images/blog/20110323.jpg)
+![](/images/blog/20110323_1.jpg)
 
 Photoshopの小技。  
 Shift+塗りつぶしをキャンバスの外で実行すると、任意の色に塗りつぶすことができます。
