@@ -256,10 +256,12 @@ a {
     @media only screen and (min-width: 481px) {
       /* line 30, /Users/apple/develop/makoto/source/stylesheets/_layout.sass */
       .nav .icon {
+        -webkit-transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
         transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
         opacity: 1; }
         /* line 35, /Users/apple/develop/makoto/source/stylesheets/_mixin.sass */
         .nav .icon:hover {
+          -webkit-transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
           transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
           opacity: 0.25; } }
   /* line 43, /Users/apple/develop/makoto/source/stylesheets/_layout.sass */
@@ -290,10 +292,12 @@ a {
         @media only screen and (min-width: 481px) {
           /* line 62, /Users/apple/develop/makoto/source/stylesheets/_layout.sass */
           .nav .list li a {
+            -webkit-transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
             transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
             opacity: 1; }
             /* line 35, /Users/apple/develop/makoto/source/stylesheets/_mixin.sass */
             .nav .list li a:hover {
+              -webkit-transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
               transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
               opacity: 0.25; } }
 
@@ -309,10 +313,12 @@ a {
   @media only screen and (min-width: 481px) {
     /* line 75, /Users/apple/develop/makoto/source/stylesheets/_layout.sass */
     .header .logo a {
+      -webkit-transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
       opacity: 1; }
       /* line 35, /Users/apple/develop/makoto/source/stylesheets/_mixin.sass */
       .header .logo a:hover {
+        -webkit-transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
         transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
         opacity: 0.25; } }
   /* line 78, /Users/apple/develop/makoto/source/stylesheets/_layout.sass */
@@ -423,10 +429,11 @@ a {
     .page .container .articles .article .title,
     .blog_tags .container .articles .article .title {
       font-size: 18px;
-      font-family: "A-OTF 見出ゴMB31 Pro", sans-serif;
+      font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif;
       font-weight: bold;
-      text-align: left;
       line-height: 1.5;
+      letter-spacing: 0.05em;
+      text-align: left;
       margin: -5px 0 35px; }
       /* line 45, /Users/apple/develop/makoto/source/stylesheets/_index.sass */
       .index .container .articles .article .title a,
@@ -438,12 +445,14 @@ a {
           .index .container .articles .article .title a,
           .page .container .articles .article .title a,
           .blog_tags .container .articles .article .title a {
+            -webkit-transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
             transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
             opacity: 1; }
             /* line 35, /Users/apple/develop/makoto/source/stylesheets/_mixin.sass */
             .index .container .articles .article .title a:hover,
             .page .container .articles .article .title a:hover,
             .blog_tags .container .articles .article .title a:hover {
+              -webkit-transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
               transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
               opacity: 0.25; } }
     /* line 49, /Users/apple/develop/makoto/source/stylesheets/_index.sass */
@@ -509,6 +518,7 @@ a {
         .page .container .pagenate .next a,
         .blog_tags .container .pagenate .prev a,
         .blog_tags .container .pagenate .next a {
+          -webkit-transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
           transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
           opacity: 1; }
           /* line 35, /Users/apple/develop/makoto/source/stylesheets/_mixin.sass */
@@ -518,6 +528,7 @@ a {
           .page .container .pagenate .next a:hover,
           .blog_tags .container .pagenate .prev a:hover,
           .blog_tags .container .pagenate .next a:hover {
+            -webkit-transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
             transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
             opacity: 0.25; } }
   /* line 88, /Users/apple/develop/makoto/source/stylesheets/_index.sass */
@@ -594,10 +605,11 @@ a {
   /* line 18, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .container .article .title {
     font-size: 22px;
-    font-family: "A-OTF 見出ゴMB31 Pro", sans-serif;
+    font-family: "見出ゴMB1", "Midashi Go MB1", sans-serif;
     font-weight: bold;
-    text-align: center;
     line-height: 1.5;
+    letter-spacing: 0.05em;
+    text-align: center;
     margin: -6px 0 94px; }
   /* line 27, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .container .article .date {
@@ -785,10 +797,12 @@ a {
     @media only screen and (min-width: 481px) {
       /* line 24, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
       .about .container .social li a {
+        -webkit-transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
         transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
         opacity: 1; }
         /* line 35, /Users/apple/develop/makoto/source/stylesheets/_mixin.sass */
         .about .container .social li a:hover {
+          -webkit-transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
           transition: opacity 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
           opacity: 0.25; } }
 /* line 27, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
