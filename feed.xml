@@ -5,10 +5,30 @@
   <id>http://daisukenagai.com/blog</id>
   <link href="http://daisukenagai.com/blog"/>
   <link href="http://daisukenagai.com/feed.xml" rel="self"/>
-  <updated>2013-07-30T00:00:00+09:00</updated>
+  <updated>2014-08-27T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>リニューアルしました</title>
+    <link rel="alternate" href="http://daisukenagai.com/blog/10.html"/>
+    <id>http://daisukenagai.com/blog/10.html</id>
+    <published>2014-08-27T00:00:00+09:00</published>
+    <updated>2014-08-27T18:07:04+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;このご時世、スマホ対応もしていないなんて！と思い、デザインをリニューアルしました。&lt;br /&gt;
+自分のサイトだし好き勝手にやりたかったので、UIもUXもクソもないようなデザインになりました。怒らないでください。&lt;/p&gt;
+
+&lt;p&gt;構築は流行りのMiddleman + GitHub Pagesです。deployで記事を公開するとなんかかっこよくていいです。&lt;br /&gt;
+偉そうなことを言っておいて実はMiddleman童貞だったので、まともにいじったのは今回が初めてでした。Railsに近い感覚でとっつきやすかったです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/310u8/310u8.github.io/tree/develop"&gt;310u8.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;リニューアルをしてもブログを書かない問題は解決されていないわけなんですが（…）、しばらくはくだらないことをつらつら書いていきたいと思います。したらな！&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Photoshopで文字をよりシャープにクリアに見せるこつを検証してみた</title>
     <link rel="alternate" href="http://daisukenagai.com/blog/9.html"/>
@@ -369,90 +389,6 @@ p#hoge.fuga ほげ
 
 &lt;p&gt;とりあえずこれくらい書ければあんまり困らないはず……！&lt;br /&gt;
 新しいことを覚えたら随時更新していきたいと思いま&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>（アクセシビリティも考えて）画像の下にできる余白をなくす</title>
-    <link rel="alternate" href="http://daisukenagai.com/blog/4.html"/>
-    <id>http://daisukenagai.com/blog/4.html</id>
-    <published>2011-12-09T00:00:00+09:00</published>
-    <updated>2014-08-26T15:20:25+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;会社で教わったので備忘録として。&lt;/p&gt;
-
-&lt;p&gt;画像の下に余白ができてしまう現象については、様々なサイトで対処法が解説されています。&lt;br /&gt;
-しかし、それぞれに問題点があったりなかったりするので、今回は考えうる限りでベストな方法を紹介したいと思います。&lt;/p&gt;
-
-&lt;h3 id="section"&gt;そもそもなんで余白ができるの&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20111209_2.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;ブロックレベル要素に内包されるimgタグは、下端がテキストのベースラインに揃えられます。アルファベットには、「g」や「j」のようにベースラインを超えるものが存在するため、多くの文字は下端に余白を持つことになります。HTMLでは、imgタグもベースラインに揃えられる仕様になっているため、同じように余白が空いてしまうのですね。&lt;/p&gt;
-
-&lt;h3 id="vertical-align"&gt;行内の垂直位置はvertical-alignプロパティで指定可能&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20111209_2_2.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;そこで登場するのがvertical-alignプロパティ。これはインライン要素の行内での垂直位置を指定するためのプロパティです。これさえわかってしまえば、あとは簡単。imgタグの親要素に以下の指定をすることで、あっというまに余白がなくなります。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hoge{
-    vertical-align:text-bottom;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;やったー消えたよー&lt;/p&gt;
-
-&lt;h3 id="section-1"&gt;ところがどっこい&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20111209_4.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;実は、この方法だけでは解決できない問題があります。試しにフォントサイズを大きくしてしましょう。今度は画像の上に余白が空いてしまいました。&lt;/p&gt;
-
-&lt;h3 id="section-2"&gt;なんでやねん&lt;/h3&gt;
-
-&lt;p&gt;imgタグが「行」の中に収まっているということは、前述の解説でおわかりいただけたかと思います。当たり前の話ですが、文字が大きくなれば、その分だけ行の高さも大きくなります（※1）。でも、文字が大きくなったからといって、画像は大きくならないので、行の高さだけが増えてしまい、前述のように余白が空いてしまうのです。&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;※1 line-heightに単位を指定をしている場合はこの限りでありません&lt;/small&gt;&lt;/p&gt;
-
-&lt;h3 id="line-height"&gt;行の高さはline-heightプロパティで指定可能&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20111209_3_2.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;じゃあ行の高さをなくせばいいんじゃね？ということで、行の高さを指定するline-heightプロパティを、前述のcssに追記します。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hoge{
-    vertical-align:text-bottom;
-    line-height:0;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;やったー消えたよー&lt;/p&gt;
-
-&lt;h3 id="part2"&gt;ところがどっこい part2&lt;/h3&gt;
-
-&lt;p&gt;これで解決したかのように思われますが、実はもう1つだけ落とし穴がありました。&lt;/p&gt;
-
-&lt;h3 id="section-3"&gt;画像が表示されない場合に文字が読めなくなる&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20111209_5.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;なんらかの原因で画像が表示されなかったり、そもそもユーザー側で画像を表示しない設定にしている場合は、imgタグで指定したalt文が表示されるようになります。このときのalt文は、imgタグに指定されているcssが適用されるので、先ほどの指定では行が重なってしまい、文字が読めなくなってしまいます。イレギュラーなケースではありますが、これはアクセシビリティ的によろしくない。というわけで、前置きが長くなりましたが、今回提案するベストな解決方法は以下の通りです。&lt;/p&gt;
-
-&lt;h3 id="imgdisplayblock"&gt;imgタグにdisplay:block;を指定する&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20111209_3.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;そもそもimgタグが行の中に収まってしまうのは、imgタグがインライン要素であるためです。であれば、imgタグをブロックレベル要素にしてしまいましょう。下記の指定で、文字が大きくなっても余白ができず、画像が非表示になってもalt文がきちんと表示されるようになります。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hoge img{
-    display:block;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id="section-4"&gt;あとがき&lt;/h3&gt;
-&lt;p&gt;アクセシビリティはユーザビリティと違って目に見えないものなので、考えるのがとても大変ですよね。色々な事例に触れて、少しずつノウハウを身に付けていきたいと思います。&lt;/p&gt;
 </content>
   </entry>
 </feed>
