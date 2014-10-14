@@ -5,16 +5,45 @@
   <id>http://daisukenagai.com/blog</id>
   <link href="http://daisukenagai.com/blog"/>
   <link href="http://daisukenagai.com/feed.xml" rel="self"/>
-  <updated>2014-08-27T00:00:00+09:00</updated>
+  <updated>2014-10-05T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>社員旅行で金沢に行きました</title>
+    <link rel="alternate" href="http://daisukenagai.com/blog/11.html"/>
+    <id>http://daisukenagai.com/blog/11.html</id>
+    <published>2014-10-05T00:00:00+09:00</published>
+    <updated>2014-10-14T19:12:50+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;加賀屋に泊まったり21世紀美術館を観たり兼六園を歩いたりしました。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20141005_1.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_2.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_3.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_4.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_5.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_6.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_7.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_8.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_9.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_10.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_11.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_12.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_13.jpg" /&gt;
+&lt;img alt="" src="/images/blog/20141005_14.jpg" /&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>リニューアルしました</title>
     <link rel="alternate" href="http://daisukenagai.com/blog/10.html"/>
     <id>http://daisukenagai.com/blog/10.html</id>
     <published>2014-08-27T00:00:00+09:00</published>
-    <updated>2014-08-27T18:07:04+09:00</updated>
+    <updated>2014-10-14T19:12:50+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -34,7 +63,7 @@
     <link rel="alternate" href="http://daisukenagai.com/blog/9.html"/>
     <id>http://daisukenagai.com/blog/9.html</id>
     <published>2013-07-30T00:00:00+09:00</published>
-    <updated>2014-08-26T15:10:57+09:00</updated>
+    <updated>2014-10-14T19:12:50+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -65,7 +94,7 @@
     <link rel="alternate" href="http://daisukenagai.com/blog/8.html"/>
     <id>http://daisukenagai.com/blog/8.html</id>
     <published>2013-06-10T00:00:00+09:00</published>
-    <updated>2014-08-26T13:04:58+09:00</updated>
+    <updated>2014-10-14T19:12:50+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -94,7 +123,7 @@ Lens / SONY E35mm F1.8 OSS SEL35F18&lt;/p&gt;
     <link rel="alternate" href="http://daisukenagai.com/blog/7.html"/>
     <id>http://daisukenagai.com/blog/7.html</id>
     <published>2013-06-02T00:00:00+09:00</published>
-    <updated>2014-08-26T15:14:05+09:00</updated>
+    <updated>2014-10-14T19:12:50+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -250,7 +279,7 @@ Fireworksを使い続ける人もいれば、Sketchを試してみる人もい�
     <link rel="alternate" href="http://daisukenagai.com/blog/6.html"/>
     <id>http://daisukenagai.com/blog/6.html</id>
     <published>2012-06-01T00:00:00+09:00</published>
-    <updated>2014-08-26T13:40:01+09:00</updated>
+    <updated>2014-10-14T19:12:50+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -276,119 +305,6 @@ Fireworksを使い続ける人もいれば、Sketchを試してみる人もい�
 &lt;p&gt;&lt;a href="http://makiapp.com/"&gt;maki : a free web design mock-up tool for pixel perfect layouts&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;同じような機能でさらに高機能なブックマークレットを見つけてしまいました…！こちらはファイルの選択や、透明度の変更なども可能になっています。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>はじめてのSlim</title>
-    <link rel="alternate" href="http://daisukenagai.com/blog/5.html"/>
-    <id>http://daisukenagai.com/blog/5.html</id>
-    <published>2012-03-13T00:00:00+09:00</published>
-    <updated>2014-08-26T15:20:14+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;業務でSlimを使うことになったため、備忘録を残します。&lt;br /&gt;
-僕も全然わかっていないので、参考程度にしていただければ幸いです……。&lt;/p&gt;
-
-&lt;h3 id="slim"&gt;Slimってなに&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="http://slim-lang.com/docs.html"&gt;http://slim-lang.com/docs.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ruby on Railsのテンプレートエンジン  &lt;/p&gt;
-
-&lt;h3 id="section"&gt;テンプレートエンジンってなに&lt;/h3&gt;
-&lt;p&gt;HTMLと他の言語をごっちゃに書ける便利なもの&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;以下、SlimでのHTMLの記述方法です。&lt;/p&gt;
-
-&lt;h3 id="section-1"&gt;基本&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;タグ名␣内容&lt;/li&gt;
-  &lt;li&gt;ヤマカッコと閉じタグは省略する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;h1 ほげ
- 
-　↓
- 
-&amp;lt;h1&amp;gt;ほげ&amp;lt;/h1&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id="section-2"&gt;属性&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;タグ名␣属性名=”値”␣内容&lt;/li&gt;
-  &lt;li&gt;カクカッコ[]、ナミカッコ{}、マルカッコ()を使用することもできる&lt;/li&gt;
-  &lt;li&gt;id名・class名は属性名を省略できる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;a href="hoge" ほげ
-a[href="hoge"] ほげ
-p#hoge.fuga ほげ
- 
-　↓
- 
-&amp;lt;a href="hoge"&amp;gt;ほげ&amp;lt;/a&amp;gt;
-&amp;lt;a href="hoge"&amp;gt;ほげ&amp;lt;/a&amp;gt;
-&amp;lt;p id="hoge" class="fuga"&amp;gt;ほげ&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id="section-3"&gt;入れ子&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;インデントで階層を表現する&lt;/li&gt;
-  &lt;li&gt;divはタグ名を省略できる（id名・class名のみで書ける）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;#hoge
-    ul
-        li ほげ
-        li ふが
- 
-　↓
- 
-&amp;lt;div id="hoge"&amp;gt;
-    &amp;lt;ul&amp;gt;
-        &amp;lt;li&amp;gt;ほげ&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;ふが&amp;lt;/li&amp;gt;
-    &amp;lt;/ul&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id="section-4"&gt;複数行&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;内容が複数行になる場合は先頭にパイプ|をつける&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;p
-    | ほげ
-    br
-    | ふが
-    br
-    | ぴよ
- 
-　↓
- 
-&amp;lt;p&amp;gt;ほげ&amp;lt;br /&amp;gt;ふが&amp;lt;br /&amp;gt;ぴよ&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id="section-5"&gt;コメント&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Rubyのコメントを使用できる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;/ ほげ
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;とりあえずこれくらい書ければあんまり困らないはず……！&lt;br /&gt;
-新しいことを覚えたら随時更新していきたいと思いま&lt;/p&gt;
 </content>
   </entry>
 </feed>
