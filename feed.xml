@@ -5,10 +5,43 @@
   <id>http://daisukenagai.com/blog</id>
   <link href="http://daisukenagai.com/blog"/>
   <link href="http://daisukenagai.com/feed.xml" rel="self"/>
-  <updated>2014-10-05T00:00:00+09:00</updated>
+  <updated>2014-10-24T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>「レイヤーを選択範囲に整列」は信用してはいけない</title>
+    <link rel="alternate" href="http://daisukenagai.com/blog/12.html"/>
+    <id>http://daisukenagai.com/blog/12.html</id>
+    <published>2014-10-24T00:00:00+09:00</published>
+    <updated>2014-10-24T13:59:35+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;「整列」はPhotoshopやIllustratorなどに搭載されている、オブジェクトを適切な位置へ配置してくれる便利な機能です。&lt;br /&gt;
+私もショートカットに設定してしまうくらい常用しているのですが、場合によっては最適な結果にならないことがあります。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20141024_1.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;わかりやすい例として、Twitterのロゴを使用したアイコンを作成してみました。 &lt;br /&gt;
+背景の図形に対して上下左右中央に整列をしただけでは、左上にズレてしまっているように見えます。&lt;br /&gt;
+そこで、ロゴを右下に移動して、中央に配置されているように"見える"調整を行ないました。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20141024_2.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;ロゴを四角形に収めてみるとわかるのですが、四隅の中で右下のみアキが広くなっています。&lt;br /&gt;
+そのため、単純に整列をしただけでは中央からズレているように見えてしまっていたのですね。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;このように、ソフトウェア上は正確な配置をしても、人間の目には気持ち悪く見えてしまうことが多々あります。&lt;br /&gt;
+グラフィックソフトにはたくさんの便利な機能がありますが、最終的には自分の感覚を信じてデザインができるといいですね。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>社員旅行で金沢に行きました</title>
     <link rel="alternate" href="http://daisukenagai.com/blog/11.html"/>
@@ -272,39 +305,6 @@ Fireworksを使い続ける人もいれば、Sketchを試してみる人もい�
 
 &lt;p&gt;というわけでいくつか機能を紹介しました。他にも「これはできないの？」とか「これもできるよ！」などなどありましたら、ぜひご連絡ください。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>コーディング時にデザインのズレを確認できるブックマークレット</title>
-    <link rel="alternate" href="http://daisukenagai.com/blog/6.html"/>
-    <id>http://daisukenagai.com/blog/6.html</id>
-    <published>2012-06-01T00:00:00+09:00</published>
-    <updated>2014-10-14T19:12:50+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;コーディングをしているときにデザインデータとズレがないか確認するため、PhotoshopやFireworksにキャプチャした画像を貼って、直して、また貼って……みたいなことをよくすると思います。もっとスマートにできたらと思い、ブラウザ上で可能にするブックマークレットを作りました。 &lt;/p&gt;
-
-&lt;h3 id="section"&gt;使い方&lt;/h3&gt;
-&lt;p&gt;&lt;a href="javascript:%20(function(){var%20d%20=%20document;var%20s%20=%20d.createElement('script');s.src%20=%20'http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js';d.body.appendChild(s);setTimeout(function(){$(function(){var%20path%20=%20prompt('%E7%94%BB%E5%83%8F%E3%81%AE%E3%83%91%E3%82%B9%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84',%20'.png');$.ajax({type:'GET',url:path,success:function(){$('html').prepend('&amp;lt;img%20src=\''%20+%20path%20+%20'\'%20id=\'overlayDesignImg\'&amp;gt;');$('img#overlayDesignImg').css({'position':'absolute','top':0,'left':0,'z-index':2147483646,'opacity':0.5});$('img#overlayDesignImg').mousedown(function(e){var%20top%20=%20parseInt($('img#overlayDesignImg').css('top'));var%20left%20=%20parseInt($('img#overlayDesignImg').css('left'));var%20x%20=%20e.pageX;var%20y%20=%20e.pageY;$(document).bind('mousemove',%20function(e){$('img#overlayDesignImg').css({'top':top%20+%20e.pageY%20-%20y,'left':left%20+%20e.pageX%20-%20x,});return%20false;}).one('mouseup',%20function(e){$(document).unbind('mousemove');});return%20false;});$(document).keydown(function(e){var%20top%20=%20parseInt($('img#overlayDesignImg').css('top'));var%20left%20=%20parseInt($('img#overlayDesignImg').css('left'));var%20shift%20=%200;if(e.shiftKey){shift%20=%2010;}switch(e.which){case%2037:$('img#overlayDesignImg').css({'left':left%20-%201%20-%20shift});break;case%2038:$('img#overlayDesignImg').css({'top':top%20-%201%20-%20shift});break;case%2039:$('img#overlayDesignImg').css({'left':left%20+%201%20+%20shift});break;case%2040:$('img#overlayDesignImg').css({'top':top%20+%201%20+%20shift});break;}return%20false;});var%20overlayDesignFlg%20=%20true;$('html').prepend('&amp;lt;div%20id=\'overlayDesignBtn\'&amp;gt;%C3%97&amp;lt;/div&amp;gt;');$('div#overlayDesignBtn').css({'position':'fixed','top':'25px','right':'25px','z-index':2147483647,'width':'25px','height':'25px','border':'2px%20solid%20#000','background':'#fff','cursor':'pointer','font-size':'12px','font-weight':'bold','text-align':'center','line-height':'25px','vertical-align':'middle'}).click(function(){if(overlayDesignFlg){$('img#overlayDesignImg').css({'display':'none'});$(this).html('%E2%97%8F');overlayDesignFlg%20=%20false;}else{$('img#overlayDesignImg').css({'display':'block'});$(this).html('%C3%97');overlayDesignFlg%20=%20true;}});},error:function(){alert('%E7%94%BB%E5%83%8F%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93');}});});},%201000);})();"&gt;overlay design&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;上記のリンクをブックマークバーに追加して、使用したいページにて実行してください。&lt;/p&gt;
-
-&lt;h3 id="section-1"&gt;機能&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;絶対パス・相対パス・ルート相対パスによるファイルの指定（使用するページから見て）&lt;br /&gt;
-（http://www.example.com/img.png, ../img.png, /img.png)&lt;/li&gt;
-  &lt;li&gt;右上のボタンで表示・非表示の切り替え&lt;/li&gt;
-  &lt;li&gt;ドラッグ&amp;amp;ドロップで画像を移動&lt;/li&gt;
-  &lt;li&gt;矢印キーで画像を1px移動&lt;/li&gt;
-  &lt;li&gt;SHIFT+矢印キーで画像を10px移動&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-2"&gt;追記&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="http://makiapp.com/"&gt;maki : a free web design mock-up tool for pixel perfect layouts&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;同じような機能でさらに高機能なブックマークレットを見つけてしまいました…！こちらはファイルの選択や、透明度の変更なども可能になっています。&lt;/p&gt;
 </content>
   </entry>
 </feed>
