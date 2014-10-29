@@ -1,6 +1,6 @@
 ---
 title: iMacの内蔵HDDからデータを救出するためにやったこと
-date: 2014-10-25
+date: 2014-10-29
 tags: design
 ---
 
