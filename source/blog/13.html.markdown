@@ -1,0 +1,33 @@
+---
+title: iMacの内蔵HDDからデータを救出するためにやったこと
+date: 2014-10-25
+tags: design
+---
+
+### 経緯
+<blockquote class="twitter-tweet" lang="ja"><p>【訃報】iMac、逝く</p>&mdash; Daisuke Nagai (@310u8) <a href="https://twitter.com/310u8/status/526362069742796802">2014, 10月 26</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### 1. Recovery HDからディスクユーティリティを起動
+起動しようとしてもリンゴマークの画面でプログレスバーが半分くらいから進まないという状況に陥ったので、まずは「[iMac 起動しない](https://www.google.co.jp/search?q=imac+%E8%B5%B7%E5%8B%95%E3%81%97%E3%81%AA%E3%81%84&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:ja-JP-mac:official&hl=ja&client=firefox-a#rls=org.mozilla:ja-JP-mac:official&hl=ja&q=iMac+%E8%B5%B7%E5%8B%95%E3%81%97%E3%81%AA%E3%81%84)」でググって調べる。  
+PRAMリセットやらSMCリセットやらはうんともすんとも言わずだったけれど、⌘+Rを押しながら起動してみたところ、Recovery HDは何とか生きていたようで、とりあえずディスクユーティリティの起動には成功。  
+が、Macintosh HDに「ディスクを検証」を実行してみたら、「**このディスクを修復できません。できるだけ多くのファイルをバックアップし、ディスクを再フォーマットしてから、バックアップしたファイルを復元してください。**」というエラーが出現。泣きたい。
+
+### 2. 外付けHDDで起動ディスクを作成
+バックアップを全く取っていなかったので、何とかデータだけでも救出できれば……と思い色々調べた結果、外付けHDDを起動ディスクにしてMacintosh HDからデータを取り出す方法があることが判明する。
+
+[OS X Yosemiteを外付けHDDにインストールしてみたよ](http://decoy284.net/2014/10/22/os-x-yosemite-external-hdd-install/)
+
+Recovery HDからの「OS Xを再インストール」ではなぜかうまくインストールできなかったので、MBAにインストーラーをダウンロードして、そこから起動ディスクを作成した。  
+iMacに外付けHDDを接続して、Optionを押しながら起動し、作成した起動ディスクを選択する。OS X起動！！！！！   
+が、**Macintosh HDはマウントされていなかった。**泣きたい。
+
+### 3. データレスキュー3でデータを復旧
+さらに調べてみると、[データレスキュー3](http://www.igeekinc.com/dr.shtml)というソフトを使えばデータを復活できるらしいということがわかり、早速インストール。  
+スキャンするだけなら体験版でもできるので、駄目元で使ってみたところ……**データ残ってたあああああああああああああああ**  
+速攻でシリアルを購入して、無事データを復旧することができました。おしまい
+
+<div class="amazon"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B002VMX8YK/310u8-22/ref=nosim/" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51hbNUTDnnL._SL160_.jpg" alt="データレスキュー3" /></a><br /><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B002VMX8YK/310u8-22/ref=nosim/" target="_blank">データレスキュー3（Amazon.co.jpで詳細を見る）</a></div>
+
+###教訓
+バックアップしろ
