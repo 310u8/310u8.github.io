@@ -5,10 +5,48 @@
   <id>http://daisukenagai.com/blog</id>
   <link href="http://daisukenagai.com/blog"/>
   <link href="http://daisukenagai.com/feed.xml" rel="self"/>
-  <updated>2014-10-24T00:00:00+09:00</updated>
+  <updated>2014-10-29T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>iMacの内蔵HDDからデータを救出するためにやったこと</title>
+    <link rel="alternate" href="http://daisukenagai.com/blog/13.html"/>
+    <id>http://daisukenagai.com/blog/13.html</id>
+    <published>2014-10-29T00:00:00+09:00</published>
+    <updated>2014-10-29T13:34:06+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="section"&gt;経緯&lt;/h3&gt;
+&lt;blockquote class="twitter-tweet" lang="ja"&gt;&lt;p&gt;【訃報】iMac、逝く&lt;/p&gt;&amp;mdash; Daisuke Nagai (@310u8) &lt;a href="https://twitter.com/310u8/status/526362069742796802"&gt;2014, 10月 26&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;h3 id="recovery-hd"&gt;1. Recovery HDからディスクユーティリティを起動&lt;/h3&gt;
+&lt;p&gt;起動しようとしてもリンゴマークの画面でプログレスバーが半分くらいから進まないという状況に陥ったので、まずは「&lt;a href="https://www.google.co.jp/search?q=imac+%E8%B5%B7%E5%8B%95%E3%81%97%E3%81%AA%E3%81%84&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;aq=t&amp;amp;rls=org.mozilla:ja-JP-mac:official&amp;amp;hl=ja&amp;amp;client=firefox-a#rls=org.mozilla:ja-JP-mac:official&amp;amp;hl=ja&amp;amp;q=iMac+%E8%B5%B7%E5%8B%95%E3%81%97%E3%81%AA%E3%81%84"&gt;iMac 起動しない&lt;/a&gt;」でググって調べる。&lt;br /&gt;
+PRAMリセットやらSMCリセットやらはうんともすんとも言わずだったけれど、⌘+Rを押しながら起動してみたところ、Recovery HDは何とか生きていたようで、とりあえずディスクユーティリティの起動には成功。&lt;br /&gt;
+が、Macintosh HDに「ディスクを検証」を実行してみたら、「&lt;strong&gt;このディスクを修復できません。できるだけ多くのファイルをバックアップし、ディスクを再フォーマットしてから、バックアップしたファイルを復元してください。&lt;/strong&gt;」というエラーが出現。泣きたい。&lt;/p&gt;
+
+&lt;h3 id="hdd"&gt;2. 外付けHDDで起動ディスクを作成&lt;/h3&gt;
+&lt;p&gt;バックアップを全く取っていなかったので、何とかデータだけでも救出できれば……と思い色々調べた結果、外付けHDDを起動ディスクにしてMacintosh HDからデータを取り出す方法があることが判明する。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://decoy284.net/2014/10/22/os-x-yosemite-external-hdd-install/"&gt;OS X Yosemiteを外付けHDDにインストールしてみたよ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Recovery HDからの「OS Xを再インストール」ではなぜかうまくインストールできなかったので、MBAにインストーラーをダウンロードして、そこから起動ディスクを作成した。&lt;br /&gt;
+iMacに外付けHDDを接続して、Optionを押しながら起動し、作成した起動ディスクを選択する。OS X起動！！！！！ &lt;br /&gt;
+が、&lt;strong&gt;Macintosh HDはマウントされていなかった。&lt;/strong&gt;泣きたい。&lt;/p&gt;
+
+&lt;h3 id="section-1"&gt;3. データレスキュー3でデータを復旧&lt;/h3&gt;
+&lt;p&gt;さらに調べてみると、&lt;a href="http://www.igeekinc.com/dr.shtml"&gt;データレスキュー3&lt;/a&gt;というソフトを使えばデータを復活できるらしいということがわかり、早速インストール。&lt;br /&gt;
+スキャンするだけなら体験版でもできるので、駄目元で使ってみたところ……&lt;strong&gt;データ残ってたあああああああああああああああ&lt;/strong&gt;&lt;br /&gt;
+速攻でシリアルを購入して、無事データを復旧することができました。おしまい&lt;/p&gt;
+
+&lt;div class="amazon"&gt;&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B002VMX8YK/310u8-22/ref=nosim/" target="_blank"&gt;&lt;img src="http://ecx.images-amazon.com/images/I/51hbNUTDnnL._SL160_.jpg" alt="データレスキュー3" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B002VMX8YK/310u8-22/ref=nosim/" target="_blank"&gt;データレスキュー3（Amazon.co.jpで詳細を見る）&lt;/a&gt;&lt;/div&gt;
+
+&lt;h3 id="section-2"&gt;教訓&lt;/h3&gt;
+&lt;p&gt;バックアップしろ&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>「レイヤーを選択範囲に整列」は信用してはいけない</title>
     <link rel="alternate" href="http://daisukenagai.com/blog/12.html"/>
@@ -149,162 +187,6 @@
 
 &lt;p&gt;Camera / SONY α NEX-5R&lt;br /&gt;
 Lens / SONY E35mm F1.8 OSS SEL35F18&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>FireworksユーザーがPhotoshopではできないと思っている12の機能</title>
-    <link rel="alternate" href="http://daisukenagai.com/blog/7.html"/>
-    <id>http://daisukenagai.com/blog/7.html</id>
-    <published>2013-06-02T00:00:00+09:00</published>
-    <updated>2014-10-14T19:12:50+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;ご存知だとは思いますが、先日Fireworksのメジャーアップデートが終了するという発表がありました。
-&lt;a href="http://www.itmedia.co.jp/news/articles/1305/07/news030.html"&gt;Adobe、Web画像ツール「Fireworks」終了へ – ITmedia ニュース&lt;/a&gt;
-熱心なFireworksユーザーが多い弊社でも、社内のあちこちから悲鳴が……。&lt;br /&gt;
-Fireworksを使い続ける人もいれば、Sketchを試してみる人もいたりなど、その後の対応は様々でしたが、やはり候補に上がってくるのはPhotoshopへの乗り換え。そこで、社内のFireworksユーザーにPhotoshopの不満な点をヒアリングして、その解決策をまとめてみることにしました。&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href="#p1"&gt;ピクセルに最適化されていない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p2"&gt;シンボルがない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p3"&gt;オブジェクトを直接選択できない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p4"&gt;シェイプの大きさや位置を数値で指定できない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p5"&gt;角丸の大きさを後から変更できない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p6"&gt;「線」が使えない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p7"&gt;色やフォントの検索・置換ができない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p8"&gt;複雑なパスの操作ができない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p9"&gt;カスタムアンチエイリアスがない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p10"&gt;レイヤースタイルのコピーができない&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p11"&gt;スライスがめんどくさい&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#p12"&gt;ページ機能やステート機能がない&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div id="p1"&gt;&lt;/div&gt;
-
-&lt;h3 id="section"&gt;1. ピクセルに最適化されていない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_1.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;CS6から「ベクトルツールと変更をピクセルグリッドにスナップ」という機能が追加され、シェイプだろうがスマートオブジェクトだろうが何だろうが、どんなものもピクセルに吸着できるようになりました。&lt;br /&gt;
-「環境設定」＞「一般」から設定することができます。&lt;/p&gt;
-
-&lt;div id="p2"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-1"&gt;2. シンボルがない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_2.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;「スマートオブジェクト」機能を使えば、Fireworksのシンボルと同じように、1つのオブジェクトを修正するだけで他のオブジェクトにも変更を適用することができます。
-スマートオブジェクト化したいレイヤーを選択して右クリック＞「スマートオブジェクトに変換」で変換が、スマートオブジェクト化したレイヤーをダブルクリックするか、右クリック＞「コンテンツを編集」で編集が可能です。&lt;/p&gt;
-
-&lt;div id="p3"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-2"&gt;3. オブジェクトを直接選択できない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_3.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;移動ツールを選択して、左上のメニューバーに表示される「自動選択」にチェックを入れましょう。レイヤーだけを選択したい場合は、「グループ」となっているプルダウンを「レイヤー」に変更すれば可能です。&lt;/p&gt;
-
-&lt;div id="p4"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-3"&gt;4. シェイプの大きさや位置を数値で指定できない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_4.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;シェイプツールを選択してキャンバス上でダブルクリックすると、数値を指定したシェイプを作成することができます。&lt;br /&gt;
-後から変更した場合は、変形時にメニューバーに表示されるXとY（位置）、WとH（大きさ）にpxの単位をつけて数値を入力することで変更が可能です。&lt;/p&gt;
-
-&lt;div id="p5"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-4"&gt;5. 角丸の大きさを後から変更できない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_5.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photoshop CCの新機能として、ついに角丸の編集が搭載されました！買いましょう（ステマ）
-現状では、Corner EditorというJSXの拡張スクリプトを入れることで実現可能です。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://coliss.com/articles/build-websites/operation/design/photoshop-jsx-corner-editor.html"&gt;Win/Mac対応、Photoshopで角丸の作成・修正の強力な武器になる機能拡張 -Corner Editor | コリス&lt;/a&gt;&lt;/p&gt;
-
-&lt;div id="p6"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-5"&gt;6. 「線」が使えない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_6.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;FireworksやIllustratorの「線」という概念ですが、Photoshopでは「ストローク」という名称でCS6から搭載されています。&lt;br /&gt;
-シェイプツールを選択すると、メニューバーに「ストローク」という項目がありますので、そこから色や太さなどを設定することができます。もちろん破線なんかもできます。&lt;/p&gt;
-
-&lt;div id="p7"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-6"&gt;7. 色やフォントの検索・置換ができない&lt;/h3&gt;
-&lt;p&gt;Photoshopでは&lt;strong&gt;できません&lt;/strong&gt;。諦めましょう……。&lt;/p&gt;
-
-&lt;div id="p8"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-7"&gt;8. レイヤースタイルのコピーができない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_12.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;レイヤースタイルが適用されているレイヤーを右クリック＞「レイヤースタイルのコピー」を選択すればできます。デフォルトではショートカットに割り当てられていないので、「編集」＞「キーボードショートカットとメニュー」＞「エリア：アプリケーションメニュー」＞「レイヤー」からショートカットを設定しましょう。ちなみに、シェイプでも同じことができますが、テキストのプロパティはコピーができませんので悪しからず……。&lt;/p&gt;
-
-&lt;div id="p9"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-8"&gt;9. カスタムアンチエイリアスがない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_8.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;これもPhotoshopではできません……。が、ちょっとめんどくさくてもよければ再現することは可能です。&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_8_2.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;まず、文字の「強さ」を変えたい場合。レイヤー効果から「ドロップシャドウ」を選択し、「描画モード」を「通常」、「距離」を「0px」、「サイズ」を「0px」と設定します。あとは文字と同じ色を選択すれば、「不透明度」の値で強さの微調整が可能です。難点としては色を変更したいときに二度手間になってしまうこと。めんどくさい人は、テキストをグループ化して、グループにカラーオーバーレイをかけましょう。&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_8_3.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;次に、文字の「シャープ」を変えたい場合。これは、テキストレイヤーをスマートオブジェクト化して、「フィルター」＞「シャープ」＞「スマートシャープ」で調整が可能です。テキストを打ち直したい場合は、スマートオブジェクトを開いて編集しましょう。&lt;/p&gt;
-
-&lt;div id="p10"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-9"&gt;10. 複雑なパスの操作ができない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_11.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;確かCS6からだったと思うのですが、Photoshopにもパスファインダが搭載されています。複数のシェイプを選択して、「レイヤー」＞「シェイプを結合」からシェイプの結合や重なりの削除などを実行することができます。&lt;br /&gt;
-より複雑なパスを扱いたい場合は、Illustratorで作成してからPhotoshopにペーストする際に「スマートオブジェクト」を選択することで、Illustratorでの変更がPhotoshopでも反映されるようになるので、こちらがおすすめかもしれません。&lt;/p&gt;
-
-&lt;div id="p11"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-10"&gt;11. スライスがめんどくさい&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_9.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;PhotoshopとFireworksではスライスの勝手が違うので、ここではいくつかヒントをご紹介。&lt;/p&gt;
-
-&lt;p&gt;まず1つ、スライスしたいオブジェクトを選択して、「レイヤー」＞「レイヤーに基づく新規スライス」とすれば、オブジェクトに沿って自動的にスライスしてくれます。レイヤーを移動してもスライスが追従してくれるのでとても便利なんですが、逆に手動で変更することができないため、範囲を調整したいときは、スライス選択ツールを選んで、右クリック＞「ユーザー定義スライスに変更」としましょう。この機能をショートカットに登録しておけば、さらに盤石！&lt;/p&gt;
-
-&lt;p&gt;また、Fireworksではスライスごとに書き出しの設定ができますが、Photoshopでも「Web用に保存する」で設定が可能です。「Web用に保存する」の画面を開き、左上にあるスライス選択ツールを選ぶことで、それぞれのスライスごとに書き出しの設定ができます。&lt;/p&gt;
-
-&lt;p&gt;他にも、最近ではSlicyという便利なアプリが登場したので、これを活用するのもいいですね。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://blog.asial.co.jp/1118"&gt;Slicyで面倒なPSDのスライス作業を効率化 !：アシアルブログ&lt;/a&gt;&lt;/p&gt;
-
-&lt;div id="p12"&gt;&lt;/div&gt;
-
-&lt;h3 id="section-11"&gt;12. ページ機能やステート機能がない&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130602_10.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Fireworksのページ機能にはいくらか劣りますが、Photoshopにも「レイヤーカンプ」という機能があり、これでレイヤーの表示・非表示や位置などを記録することができます。マスターや共有レイヤーについては、スマートオブジェクトを使えば似たようなことができるかも？&lt;/p&gt;
-
-&lt;p&gt;また、複数ファイル間でスマートオブジェクトを共有したい場合は、Linksというエクステンションをインストールすることで可能になります。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://coliss.com/articles/software/photoshop-extension-linked-smart-objects.html"&gt;Win/これは便利！外部ファイルをリンクさせるPhotoshopのエクステンション -Links | コリス&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;というわけでいくつか機能を紹介しました。他にも「これはできないの？」とか「これもできるよ！」などなどありましたら、ぜひご連絡ください。&lt;/p&gt;
-
 </content>
   </entry>
 </feed>
