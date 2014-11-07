@@ -5,16 +5,61 @@
   <id>http://daisukenagai.com/blog</id>
   <link href="http://daisukenagai.com/blog"/>
   <link href="http://daisukenagai.com/feed.xml" rel="self"/>
-  <updated>2014-10-29T00:00:00+09:00</updated>
+  <updated>2014-11-05T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>iMac Retina 5Kがやってきた</title>
+    <link rel="alternate" href="http://daisukenagai.com/blog/14.html"/>
+    <id>http://daisukenagai.com/blog/14.html</id>
+    <published>2014-11-05T00:00:00+09:00</published>
+    <updated>2014-11-07T15:58:48+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="" src="/images/blog/20141105_2.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ああああああああああああああああああああああああああああああ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20141105_3.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ああああああああああああああああああああああああああああああ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/blog/20141105_1.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ああああああああああああああああああああああああああああああ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id="section"&gt;感想&lt;/h3&gt;
+&lt;p&gt;Think different.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id="section-1"&gt;購入前に不安だったこと&lt;/h3&gt;
+
+&lt;h4 id="retinaweb"&gt;Retina対応されていないWebサイトが気持ち悪くないか&lt;/h4&gt;
+&lt;p&gt;全然気にならなかった。&lt;br /&gt;
+iPhoneとは違って遠くから画面を覗くので解像度の違いはほぼわからない（近付くとわかる）。&lt;/p&gt;
+
+&lt;h4 id="photoshopweb"&gt;PhotoshopでWebデザインするときに困らないか&lt;/h4&gt;
+&lt;p&gt;普通に使うのはやっぱりキツかったので下記を参考に「低解像度で開く」で作業してる。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://d.hatena.ne.jp/akuyan/20140328/p2"&gt;【解決編】Retina対応のPhotoshopとかで画像が1/2サイズで表示されて困ってたらこうした方がいいよってみんなに教えてもらった話&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id="section-2"&gt;デカくないか&lt;/h4&gt;
+&lt;p&gt;23インチとはさして変わらなかった。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>iMacの内蔵HDDからデータを救出するためにやったこと</title>
     <link rel="alternate" href="http://daisukenagai.com/blog/13.html"/>
     <id>http://daisukenagai.com/blog/13.html</id>
     <published>2014-10-29T00:00:00+09:00</published>
-    <updated>2014-10-29T13:34:06+09:00</updated>
+    <updated>2014-11-07T15:58:39+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -158,35 +203,6 @@ iMacに外付けHDDを接続して、Optionを押しながら起動し、作成�
 
 &lt;p&gt;これは個人的な見解ですが、文字のアンチエイリアスに関しては万能な設定は存在しないと考えます。フォントはもちろん、大きさや太さ、文字色や背景色などに合わせて、つど最適な設定をしていくしかありません。&lt;br /&gt;
 ただ、コリスさんがこの記事で伝えたかったのは「細部にもこだわりを持つ」ということだと思うので、その点はぜひ意識していきたいですね！横槍を入れてしまい、大変失礼いたしました。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>SONY α NEX-5R</title>
-    <link rel="alternate" href="http://daisukenagai.com/blog/8.html"/>
-    <id>http://daisukenagai.com/blog/8.html</id>
-    <published>2013-06-10T00:00:00+09:00</published>
-    <updated>2014-10-14T19:12:50+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;SONY α NEX-5Rを買いました。パワーズームレンズキットを5万円ちょっとで。3回払いです！
-しばらくはキットレンズで頑張ろうと思っていたのですが、NEX-5Rユーザーの作例を見ていたら我慢できなくなってしまい単焦点レンズも購入……。こちらもSONYのE35mm F1.8 OSSです。&lt;br /&gt;
-そのまま近くのスタバに入って、早速撮影。とろけるようなボケ具合を見て、いい買い物をしたと心底思いました（笑）。
-その後、地元の海に行って色々と撮ってきたので、作例をいくつか掲載してみます。初めてLightroomでRAWから現像してみたのですが、なかなかどうして難しいですね……。撮って出しの写真は&lt;a href="https://www.flickr.com/photos/310u8/"&gt;Flickr&lt;/a&gt;にアップしているので、よければこちらもご覧ください。&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20130610_1.jpg" /&gt;
-&lt;img alt="" src="/images/blog/20130610_2.jpg" /&gt;
-&lt;img alt="" src="/images/blog/20130610_3.jpg" /&gt;
-&lt;img alt="" src="/images/blog/20130610_4.jpg" /&gt;
-&lt;img alt="" src="/images/blog/20130610_5.jpg" /&gt;
-&lt;img alt="" src="/images/blog/20130610_6.jpg" /&gt;
-&lt;img alt="" src="/images/blog/20130610_7.jpg" /&gt;
-&lt;img alt="" src="/images/blog/20130610_8.jpg" /&gt;
-&lt;img alt="" src="/images/blog/20130610_9.jpg" /&gt;
-&lt;img alt="" src="/images/blog/20130610_10.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Camera / SONY α NEX-5R&lt;br /&gt;
-Lens / SONY E35mm F1.8 OSS SEL35F18&lt;/p&gt;
 </content>
   </entry>
 </feed>
