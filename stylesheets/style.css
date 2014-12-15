@@ -642,7 +642,7 @@ a {
   .blog .container .article img {
     padding: 8px 0 10px;
     max-width: 800px;
-    display: block; }
+    display: inline-block; }
   /* line 68, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .container .article a {
     text-decoration: underline; }
@@ -708,89 +708,107 @@ a {
     .blog .container .article .amazon img {
       margin-bottom: 20px;
       display: inline; }
-/* line 134, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+  /* line 134, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+  .blog .container .article iframe {
+    width: 800px;
+    height: 450px;
+    margin-bottom: 40px; }
+  /* line 139, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+  .blog .container .article embed {
+    margin-bottom: 40px; }
+/* line 142, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
 .blog .container .share {
   text-align: center;
   margin-bottom: 150px; }
-  /* line 138, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+  /* line 146, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .container .share .twitter,
   .blog .container .share .facebook,
   .blog .container .share .hatena {
     display: inline-block; }
-  /* line 143, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+  /* line 151, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .container .share .twitter {
     margin-right: 20px;
     position: relative;
     top: 1px; }
-  /* line 148, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+  /* line 156, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .container .share .facebook {
     margin-right: 20px; }
-  /* line 151, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+  /* line 159, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .container .share .hatena {
     position: relative;
     top: -5px; }
 
 @media only screen and (max-width: 480px) {
-  /* line 157, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+  /* line 165, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .visual {
     margin-bottom: 60px; }
-  /* line 161, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+  /* line 169, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .container .article {
     margin-bottom: 94px;
     padding-top: 26px; }
-    /* line 165, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 173, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article .title {
       font-size: 18px;
       margin-bottom: 75px; }
-    /* line 169, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 177, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article .date {
       font-size: 11px; }
-    /* line 172, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 180, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article h3 {
       font-size: 16px;
       margin: 55px 0 25px; }
-    /* line 176, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 184, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article p + h3 {
       margin-top: 47px; }
-    /* line 179, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 187, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article h4 {
       font-size: 14px;
       margin: 0 0 25px; }
-    /* line 183, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 191, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article p + h4 {
       margin-top: 27px; }
-    /* line 186, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 194, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article p {
       margin-bottom: 22px; }
-    /* line 189, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 197, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article img {
       width: 100%; }
-    /* line 192, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 200, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article ul,
     .blog .container .article ol {
       margin-bottom: 28px; }
-    /* line 196, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 204, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article blockquote {
       margin-bottom: 30px;
       padding: 20px; }
-    /* line 200, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 208, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article pre {
       margin-bottom: 30px;
       padding: 20px; }
-    /* line 204, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 212, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article hr {
       margin-bottom: 30px; }
-    /* line 207, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 215, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .article .twitter-tweet {
       margin-bottom: 35px !important; }
-  /* line 210, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 218, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    .blog .container .article iframe {
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px; }
+    /* line 223, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    .blog .container .article embed {
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px; }
+  /* line 228, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
   .blog .container .share {
     margin-bottom: 100px;
     display: none; }
-    /* line 214, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 232, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .share .twitter {
       top: 0; }
-    /* line 217, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
+    /* line 235, /Users/apple/develop/makoto/source/stylesheets/_blog.sass */
     .blog .container .share .hatena {
       top: -6px; } }
 /* line 5, /Users/apple/develop/makoto/source/stylesheets/_about.sass */
