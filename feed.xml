@@ -5,16 +5,41 @@
   <id>http://daisukenagai.com/blog</id>
   <link href="http://daisukenagai.com/blog"/>
   <link href="http://daisukenagai.com/feed.xml" rel="self"/>
-  <updated>2014-12-18T00:00:00+09:00</updated>
+  <updated>2015-07-13T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>ゲームが好きだ</title>
+    <link rel="alternate" href="http://daisukenagai.com/blog/18.html"/>
+    <id>http://daisukenagai.com/blog/18.html</id>
+    <published>2015-07-13T00:00:00+09:00</published>
+    <updated>2015-07-14T12:56:39+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;初対面の人に趣味を訊かれたら、最近は「寝ることです」と答えるようにしている。&lt;br /&gt;
+ぶっちゃけ、休日はFF14かスプラトゥーンしかやっていないわけだけれど、世間体が服を着て歩いているような自分としては、趣味をゲームだと断言するには少しだけ後ろめたい気持ちがあるからだ。  &lt;/p&gt;
+
+&lt;p&gt;2015年7月13日の今日、&lt;a href="http://www.1101.com/iwata20150711/index.html" target="_blank"&gt;ほぼ日刊イトイ新聞で特集されていた記事&lt;/a&gt;を久々に読み返した。&lt;br /&gt;
+学生時代に読んでいた記事もいくつかあったのだが、改めて気付かされたのは、任天堂という会社がゲーム開発にかける情熱だ。  &lt;/p&gt;
+
+&lt;p&gt;いくつかの記事の中で一貫して語られているのは、任天堂の経営方針である「人々を楽しませる」という点である。&lt;br /&gt;
+ユーザーのことを第一に考え、目先の利益に囚われず業界全体の活性化に貢献する、その姿勢が記事の端々から感じられ、ただただ感動してしまった。&lt;br /&gt;
+そして、そんなクリエイター達が作ったものを「後ろめたい」だなんて思っていた自分が、とてつもなく恥ずかしくなった。&lt;br /&gt;
+映画も小説も漫画も音楽も、そしてゲームも、どこかの誰かが魂を削ってものづくりをしたことに変わりはなく、そこに違いなんてあるはずないのに。&lt;br /&gt;
+自分の場合はそれがたまたまゲームだったというだけで、クリエイターの情熱を「楽しむ」ことに悪いことなど何一つないのだと、今更ながらに気付かされた。&lt;/p&gt;
+
+&lt;p&gt;明日からは、自分の気持ちに正直に、「ゲームが好きだ」ということを胸を張って宣言していきたい。&lt;br /&gt;
+それが、今まで僕を楽しませてくれた人への、最大の手向けだと思うから。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Web Designing 2015年1月号に寄稿しました</title>
     <link rel="alternate" href="http://daisukenagai.com/blog/17.html"/>
     <id>http://daisukenagai.com/blog/17.html</id>
     <published>2014-12-18T00:00:00+09:00</published>
-    <updated>2014-12-18T15:06:32+09:00</updated>
+    <updated>2015-07-14T12:56:40+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -29,7 +54,7 @@
     <link rel="alternate" href="http://daisukenagai.com/blog/16.html"/>
     <id>http://daisukenagai.com/blog/16.html</id>
     <published>2014-12-15T00:00:00+09:00</published>
-    <updated>2014-12-18T14:49:29+09:00</updated>
+    <updated>2015-07-14T12:56:40+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -291,39 +316,6 @@ iMacに外付けHDDを接続して、Optionを押しながら起動し、作成�
 
 &lt;h3 id="section-2"&gt;教訓&lt;/h3&gt;
 &lt;p&gt;バックアップしろ&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>「レイヤーを選択範囲に整列」は信用してはいけない</title>
-    <link rel="alternate" href="http://daisukenagai.com/blog/12.html"/>
-    <id>http://daisukenagai.com/blog/12.html</id>
-    <published>2014-10-24T00:00:00+09:00</published>
-    <updated>2014-10-24T14:04:16+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;「整列」はPhotoshopやIllustratorなどに搭載されている、オブジェクトを適切な位置へ配置してくれる便利な機能です。&lt;br /&gt;
-私もショートカットに設定してしまうくらい常用しているのですが、場合によっては最適な結果にならないことがあります。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20141024_1.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;わかりやすい例として、Twitterのロゴを使用したアイコンを作成してみました。 &lt;br /&gt;
-背景の図形に対して上下左右中央に整列をしただけでは、左上にズレてしまっているように見えます。&lt;br /&gt;
-そこで、ロゴを右下に移動して、中央に配置されているように"見える"調整を行ないました。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img alt="" src="/images/blog/20141024_2.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;ロゴを四角形に収めてみるとわかるのですが、四隅の中で右下のみアキが広くなっています。&lt;br /&gt;
-そのため、単純に整列をしただけでは中央からズレているように見えてしまっていたのですね。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;このように、ソフトウェア上は正確な配置をしていても、人間の目には気持ち悪く見えてしまうことが多々あります。&lt;br /&gt;
-グラフィックソフトにはたくさんの便利な機能がありますが、最終的には自分の感覚を信じてデザインができるといいですね。&lt;/p&gt;
 </content>
   </entry>
 </feed>
